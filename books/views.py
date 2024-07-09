@@ -4,8 +4,16 @@ from .forms import AuthorForm, BookForm
 from django.http import HttpResponse
 
 # Create your views here.
+
+
+def home_page(request):
+    " home_page view"
+
+    return render(request,'books/index.html')
+
 def bookstore(response):
     return HttpResponse("Hello, Bookstore")
+
 def test_view(request):
     return HttpResponse("Hello, this is a test view to check Heroku deployment!")
 
