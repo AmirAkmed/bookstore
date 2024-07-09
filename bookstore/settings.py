@@ -30,7 +30,10 @@ SECRET_KEY = 'django-insecure-86km-+ppb(x6&jb=^_9efqz_9f^9@ypled0@74r*2ivls*&b#)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-amirakmed-bookstore-y9ii9ru2vz7.ws.codeinstitute-ide.net']
+ALLOWED_HOSTS = [
+    '8000-amirakmed-bookstore-y9ii9ru2vz7.ws.codeinstitute-ide.net',
+    'amirbooks-d3222602a6af.herokuapp.com',
+]
 
 CSRF_TRUSTED_ORIGINS = [
     "https://*.8000-amirakmed-bookstore-y9ii9ru2vz7.ws.codeinstitute-ide.net",
