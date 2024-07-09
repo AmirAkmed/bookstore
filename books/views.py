@@ -8,8 +8,10 @@ from .models import Author, Book
 from .forms import AuthorForm, BookForm
 
 # Create your views here.
-def home_page(request):
+def home(request):
     return render(request,'books/index.html')
+
+
 
 def bookstore(response):
     return HttpResponse("Hello, Bookstore")
@@ -210,7 +212,7 @@ def book_update(request, pk):
     else:
         form = BookForm(instance=book)
     return render(request, 'books/book_form.html', {'form': form})
-    
+
 @login_required
 def book_delete(request, pk):
     book = get_object_or_404(Book, pk=pk)
