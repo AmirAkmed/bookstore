@@ -14,17 +14,23 @@
                 <li class="nav-item"><a class="nav-link" href="{% url 'author_list' %}">Authors</a></li>
                 <li class="nav-item"><a class="nav-link" href="{% url 'book_list' %}">Books</a></li>
                 {% if user.is_authenticated %}
-                    <li class="nav-item"><a class="nav-link" href="{% url 'logout' %}">Logout</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'account_logout' %}">Logout</a></li>
                 {% else %}
-                    <li class="nav-item"><a class="nav-link" href="#">Login</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Register</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'account_login' %}">Login</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'account_signup' %}">Register</a></li>
                 {% endif %}
             </ul>
         </div>
     </nav>
     <div class="container mt-4">
+        {% if messages %}
+            <div class="alert alert-info">
+                {% for message in messages %}
+                    <div>{{ message }}</div>
+                {% endfor %}
+            </div>
+        {% endif %}
         {% block content %}
-
         {% endblock %}
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
@@ -32,3 +38,4 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+
