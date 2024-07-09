@@ -16,9 +16,20 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from books.views import bookstore
+from django.http import HttpResponse
+
+def test_view(request):
+    return HttpResponse("Hello, this is a test view to check Heroku deployment!")
 
 urlpatterns = [
-    path('books/', bookstore, name='books'),
     path('admin/', admin.site.urls),
+    path('', test_view, name='test_view'),
 ]
+
+
+# from books.views import bookstore
+
+# urlpatterns = [
+#     path('books/', bookstore, name='books'),
+#     path('admin/', admin.site.urls),
+# ]
