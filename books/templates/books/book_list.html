@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Books</h1>
+<a class="btn btn-primary" href="{% url 'book_create' %}">New Book</a>
+<table class="table table-striped mt-3">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for book in books %}
+        <tr>
+            <td><a href="{% url 'book_detail' book.pk %}">{{ book.title }}</a></td>
+            <td>{{ book.author.name }}</td>
+            <td>
+                <a class="btn btn-sm btn-info" href="{% url 'book_update' book.pk %}">Edit</a>
+                <form method="post" action="{% url 'book_delete' book.pk %}" style="display:inline;">
+                    {% csrf_token %}
+                    <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+                </form>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}
