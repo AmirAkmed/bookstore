@@ -5,6 +5,7 @@ from django.db.models import Q
 from django.shortcuts import render, get_object_or_404, redirect
 from .models import Author, Book
 from .forms import AuthorForm, BookForm
+from .decorators import login_required_message
 
 # Create your views here.
 def home(request):
@@ -33,7 +34,7 @@ def author_detail(request, pk):
     author = get_object_or_404(Author, pk=pk)
     return render(request, 'books/author_detail.html', {'author': author})
 
-@login_required
+@login_required_message
 def author_create(request):
     if request.method == "POST":
         form = AuthorForm(request.POST, request.FILES)
@@ -47,7 +48,7 @@ def author_create(request):
         form = AuthorForm()
     return render(request, 'books/author_form.html', {'form': form})
 
-@login_required
+@login_required_message
 def author_update(request, pk):
     author = get_object_or_404(Author, pk=pk)
     if request.method == "POST":
@@ -62,7 +63,7 @@ def author_update(request, pk):
         form = AuthorForm(instance=author)
     return render(request, 'books/author_form.html', {'form': form})
 
-@login_required
+@login_required_message
 def author_delete(request, pk):
     author = get_object_or_404(Author, pk=pk)
     if request.method == "POST":
@@ -84,7 +85,7 @@ def book_detail(request, pk):
     book = get_object_or_404(Book, pk=pk)
     return render(request, 'books/book_detail.html', {'book': book})
 
-@login_required
+@login_required_message
 def book_create(request):
     if request.method == "POST":
         form = BookForm(request.POST, request.FILES)
@@ -98,7 +99,7 @@ def book_create(request):
         form = BookForm()
     return render(request, 'books/book_form.html', {'form': form})
 
-@login_required
+@login_required_message
 def book_update(request, pk):
     book = get_object_or_404(Book, pk=pk)
     if request.method == "POST":
@@ -113,7 +114,7 @@ def book_update(request, pk):
         form = BookForm(instance=book)
     return render(request, 'books/book_form.html', {'form': form})
 
-@login_required
+@login_required_message
 def book_delete(request, pk):
     book = get_object_or_404(Book, pk=pk)
     if request.method == "POST":
