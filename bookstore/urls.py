@@ -20,7 +20,7 @@ from books import views
 
 
 urlpatterns = [
-    path('account/', include('allauth.urls')),
+    path('accounts/', include('allauth.urls')),
     path('admin/', admin.site.urls),
     path('', include('books.urls')),
 ]
