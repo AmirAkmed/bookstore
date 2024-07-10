@@ -18,10 +18,7 @@
             <td>{{ book.author.name }}</td>
             <td>
                 <a class="btn btn-sm btn-info" href="{% url 'book_update' book.pk %}">Edit</a>
-                <form method="post" action="{% url 'book_delete' book.pk %}" style="display:inline;">
-                    {% csrf_token %}
-                    <button type="submit" class="btn btn-sm btn-danger">Delete</button>
-                </form>
+                <a class="btn btn-sm btn-danger" href="{% url 'book_delete' book.pk %}">Delete</a>
             </td>
         </tr>
         {% endfor %}
