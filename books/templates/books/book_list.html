@@ -1,5 +1,9 @@
 {% extends 'base.html' %}
 
+{% block hero_class %}
+hidden-hero
+{% endblock %}
+
 {% block content %}
 <h1>Books</h1>
 <a class="btn btn-primary" href="{% url 'book_create' %}">New Book</a>

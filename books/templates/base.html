@@ -9,6 +9,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bookstore</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hero-image {
+            position: relative;
+            width: 100%;
+            height: 100vh; /* Full height */
+            background-image: url('/static/img/bkstr1792.webp');
+            background-size: cover; /* Ensure the image covers the viewport */
+            background-position: center; /* Center the image */
+            background-repeat: no-repeat;
+        }
+
+        .hidden-hero {
+            display: none;
+        }
+
+        .overlay-content {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(0, 0, 0, 0.5); /* Optional: to dim the background */
+        }
+        .overlay-content .container {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .navbar {
+            z-index: 20; /* Ensure navbar is above overlay */
+        }
+    </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -29,6 +66,20 @@
             </ul>
         </div>
     </nav>
+    <div class="{% block hero_class %}hero-image{% endblock %}">
+            <img src="/static/img/bkstr1792.webp"
+                 srcset="/static/img/bkstr480.webp 480w,
+                        /static/img/bkstr768c.webp 768w,
+                        /static/img/bkstr1280c.webp 1280w,
+                        /static/img/bkstr1792.webp 1792w"
+                 sizes="(max-width: 480px) 480px,
+                        (max-width: 768px) 768px,
+                        (max-width: 1280px) 1280px,
+                        1792px"
+                 alt="Hero Image"
+                 loading="lazy">
+    </div>
+        {% block overlay_content %}{% endblock %}
     <div class="container mt-4">
         {% if messages %}
             <div class="alert alert-info">
@@ -45,7 +96,3 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
-
-
-
-
