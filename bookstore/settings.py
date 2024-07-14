@@ -46,7 +46,6 @@ CSRF_TRUSTED_ORIGINS = [
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
-    'path.to.CloseDBConnectionMiddleware',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
@@ -56,6 +55,7 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'books',
+    'django-postgrespool2',
 ]
 
 SITE_ID = 1
@@ -79,6 +79,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'allauth.account.middleware.AccountMiddleware',
+    'path.to.CloseDBConnectionMiddleware',
 ]
 
 ROOT_URLCONF = 'bookstore.urls'
@@ -116,10 +117,37 @@ WSGI_APPLICATION = 'bookstore.wsgi.application'
 #     }
 # }
 
+# DATABASES = {
+# 	'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
+# }
+
 DATABASES = {
-	'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
+    'default': {
+        'ENGINE': 'django_postgrespool2',
+        'NAME': os.getenv('DB_NAME'),  # Use your actual database name
+        'USER': os.getenv('DB_USER'),  # Use your actual database user
+        'PASSWORD': os.getenv('DB_PASSWORD'),  # Use your actual database password
+        'HOST': os.getenv('DB_HOST'),  # Use your actual database host
+        'PORT': os.getenv('DB_PORT'),  # Use your actual database port
+        'OPTIONS': {
+            'MAX_CONNS': 2,  # Set the maximum number of connections to match your needs
+        },
+    }
 }
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django_postgrespool2',
+#         'NAME': 'your_database_name',  # Use your actual database name
+#         'USER': 'your_database_user',  # Use your actual database user
+#         'PASSWORD': 'your_database_password',  # Use your actual database password
+#         'HOST': 'your_database_host',  # Use your actual database host
+#         'PORT': 'your_database_port',  # Use your actual database port
+#         'OPTIONS': {
+#             'MAX_CONNS': 20,  # Set the maximum number of connections to match your needs
+#         },
+#     }
+# }
 
 
 # Password validation
