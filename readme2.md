@@ -5,7 +5,7 @@ This website is for a small exclusive bookstore holding classical literature by 
 
 **List of features**
 
-****![](https://lh7-us.googleusercontent.com/docsz/AD_4nXfkCZO-2yRe0tVgoFEKlhEnqOoJRQE6r-e6b3HvSchteSt2gU6WjEoPT6SjFAH4-x6QdeWv1jIVffp3bA4OMbgLmFKzqMcfljpZkGFVkc-yv3n-M4q8_042ZP4nnfhik2qBRvwE_IMy_9c0LWuKZ9choJF-?key=fOM-cHyIvWK8DWyfjOEwAQ)****
+****![](https://github.com/AmirAkmed/bookstore/blob/main/static/img/authors.png)****
 
 **Authors**
 
@@ -13,7 +13,7 @@ The guest users are able to view the list of authors and a little biography on t
 
 The bookstore staff are able to see the list of authors as well as being able to edit or delete authors.
 
-****![](https://lh7-us.googleusercontent.com/docsz/AD_4nXeCjpn6WSyQP5FOIUOJUe_k0wc8sEidKrkrQruCS1Q3157ISy1uR5jkcrbHwrOgmmk65nedYrPAUyyhVs5YuYMI03Au97zwOg9b0vws0GyM0jurve2seKkVTDV6Uf_fYB-5D8BaDHWvVXp8Le9yRSUAkk4?key=fOM-cHyIvWK8DWyfjOEwAQ)****
+****![](https://github.com/AmirAkmed/bookstore/blob/main/static/img/books.png)****
 
 **Books** 
 
@@ -21,7 +21,7 @@ The guest users are able to see the book names as well as authors alongside when
 
 The bookstore staff are able to see the book names and authors as well as being able to edit the books too.
 
-![](https://lh7-us.googleusercontent.com/docsz/AD_4nXd5nqnldHCugbtJTCzH2MV6TkzuKlCWOF6kfELhwfCWZxViUUbdiNttURjv2noPGL0lDQDXxRNrOdsmAdgUl30CGw5cn775nenjhZCs2EDixUN5ynPJdX4wolfzs2g0so66GXYhZD6t8IBhAtimAilALruQ?key=fOM-cHyIvWK8DWyfjOEwAQ)
+![](https://github.com/AmirAkmed/bookstore/blob/main/static/img/login.png)
 
 **Login**
 
