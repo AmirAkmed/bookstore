@@ -55,7 +55,7 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'books',
-    'django-postgrespool2',
+    # 'django-postgrespool2',
 ]
 
 SITE_ID = 1
@@ -79,7 +79,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'allauth.account.middleware.AccountMiddleware',
-    'path.to.CloseDBConnectionMiddleware',
+    # 'path.to.CloseDBConnectionMiddleware',
 ]
 
 ROOT_URLCONF = 'bookstore.urls'
