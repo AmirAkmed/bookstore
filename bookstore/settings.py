@@ -117,9 +117,9 @@ WSGI_APPLICATION = 'bookstore.wsgi.application'
 #     }
 # }
 
-# DATABASES = {
-# 	'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
-# }
+DATABASES = {
+	'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
+}
 
 # DATABASES = {
 #     'default': {
@@ -135,19 +135,19 @@ WSGI_APPLICATION = 'bookstore.wsgi.application'
 #     }
 # }
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django_postgrespool2',
-        'NAME': 'edge_dance_femur_512775',  # Use your actual database name
-        'USER': 'ubm4h2dcstz',  # Use your actual database user
-        'PASSWORD': 'qdfWI4JU4JQQ',  # Use your actual database password
-        'HOST': 'ep-gentle-mountain-a23bxz6h.eu-central-1.aws.neon.tech',  # Use your actual database host
-        'PORT': '5432',  # Use your actual database port
-        'OPTIONS': {
-            'MAX_CONNS': 2,  # Set the maximum number of connections to match your needs
-        },
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django_postgrespool2',
+#         'NAME': 'edge_dance_femur_512775',  # Use your actual database name
+#         'USER': 'ubm4h2dcstz',  # Use your actual database user
+#         'PASSWORD': 'qdfWI4JU4JQQ',  # Use your actual database password
+#         'HOST': 'ep-gentle-mountain-a23bxz6h.eu-central-1.aws.neon.tech',  # Use your actual database host
+#         'PORT': '5432',  # Use your actual database port
+#         'OPTIONS': {
+#             'MAX_CONNS': 2,  # Set the maximum number of connections to match your needs
+#         },
+#     }
+# }
 
 
 # Password validation
