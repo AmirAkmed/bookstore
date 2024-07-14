@@ -61,46 +61,125 @@ Planning and wireframe design
 
 Database Schema for Author and Books
 
-![](https://lh7-us.googleusercontent.com/docsz/AD_4nXeuGZBdm0IT4YV4unDsJ9xkL7Y4R1hpo75uPs6Gk-fuFFfpJtSTWjsHA-Ed_3731Bqjem88tn2CbAnCtbce0lSN70iRVGyDn7iwvVgJvq262TVro_ZBjN0_xF8WL814dX0cgW0laG16JN2DcFkJhi6R30Y?key=fOM-cHyIvWK8DWyfjOEwAQ)
+![](https://github.com/AmirAkmed/bookstore/blob/main/static/img/schema.png)
 
 Homepage
 
-![](https://lh7-us.googleusercontent.com/docsz/AD_4nXdN3NlPerQ-mZFHN6Z6sJx_SPScwCTAyRWj6wunq5MsFGyPwJmEmgiEDb3uoZiZfsm-SZCz4earkUTGgGlJyqVdU9TDcKuz_eUG2YOTtcp7ao3Ttj8MA-pbA6SGnghu5gDIe1w1UGvURjmjjkvGYVqJyVA?key=fOM-cHyIvWK8DWyfjOEwAQ)
+![](https://github.com/AmirAkmed/bookstore/blob/main/static/img/homepage.png)
 
 Login
 
-![](https://lh7-us.googleusercontent.com/docsz/AD_4nXdxMT35wveCgMaQIZPkQ994QLIC7SP3KD_Vny3JqlpigpQUsYyaqcIG_81G7uNamdKxHd0GJsOC0cwyF_V_SiMGOgALLfR0g5ow70-sOCCYN8bJyAFgEr7ztKZZAj9DBePVGbI9H1cUGGgWl1f32toftLLY?key=fOM-cHyIvWK8DWyfjOEwAQ)
+![](https://github.com/AmirAkmed/bookstore/blob/main/static/img/loginwf.png)
 
 Author
 
-![](https://lh7-us.googleusercontent.com/docsz/AD_4nXcEZ5jpa-wYAueo5MXapcTK9AReyccKSR56V55siXc6OtarNVaN0xttFsNh7zY-9u6x6nJN7f8YxnAXJsR7QXTJvfCuk7LNa07t0XxkavOdCFFNXpO2TkBalk0GNPHwC_2Pk4yCCprCwvz-C4xYtK3qFK6I?key=fOM-cHyIvWK8DWyfjOEwAQ)
 
-![](https://lh7-us.googleusercontent.com/docsz/AD_4nXfDL9GmnmK4_yyHjcN0X1zKC7oEuCdsIUi3ljh9hrCvNjKfMlzyZs0VhpKo4tcKKmHPJR011gHeakvYORNq1uavihLcxjBSV9vmssZfouxslkDaTF3FJlfyCDB01sXNq_L30KvNd8E3szxSVnyadxrrkUk?key=fOM-cHyIvWK8DWyfjOEwAQ)
+![](https://github.com/AmirAkmed/bookstore/blob/main/static/img/author.png)
 
-CHANGE!
 
-![](https://lh7-us.googleusercontent.com/docsz/AD_4nXeMJrjc39Fwid9Rp5wzTCCtnEj28x_6c3mWxq06GrxyW_dNihtVeTVa0ciEc9W_yVPMCPHh6uDRW1R1QN_AoSwqe4uhI_Bo8rJVKaimZT199-HV9AiVqrp9xW110Emi7GKyAfdkEJpEDkjsDK4tW32j2cRp?key=fOM-cHyIvWK8DWyfjOEwAQ)
+![](https://github.com/AmirAkmed/bookstore/blob/main/static/img/view%20author%20details.png)
+
+
+![](https://github.com/AmirAkmed/bookstore/blob/main/static/img/author%20list.png)
+
+![](h)
+
+
 
 Book
 
-![](https://lh7-us.googleusercontent.com/docsz/AD_4nXctZ2OKTfRzemDl-g1eTYo1juPbz1GeldPJuw-ChyJidPPYGEeOfZQizW5ZyIEJpTnlCOMuiYKIjP6lSG11bjlOTXTbi6kz6FydB0YHG9OHJBwmnC7Z1R5L1Z6a2s6ipZfH7Ix_ceuP4ln8pJ5By3hS4ok?key=fOM-cHyIvWK8DWyfjOEwAQ)
+![](https://github.com/AmirAkmed/bookstore/blob/main/static/img/view%20book%20details.png)
 
-![](https://lh7-us.googleusercontent.com/docsz/AD_4nXepRKBCWNN84O6Uz9l4ioVs3mj1JZ1eH9suY42MVeg065mSaFPyNq_Gu8BfRXoxoLn3rI9-JiNzzfHs8PH5A71-JsPf-vRPhFRsX1tZ1YF0EciqUgtvgcOSpFPAAVqUQC3CTcmGXeKe90ympiQseoYz4iB2?key=fOM-cHyIvWK8DWyfjOEwAQ)
-
-\
-![](https://lh7-us.googleusercontent.com/docsz/AD_4nXcg3VOQRIt9hvZ3oemMHFlNbEmhkM1FhhATwRoix-Xlis85FsEan-zdsGdIfzPPP6gdp9waeJ4yZGkXfVa2NVMQkhEKZ3r7A-JgHQXL9WK9Sk4lO8zXFA1luiAjveaRWJilHv9dMZuqEQdxlS9kVwxr1ZDA?key=fOM-cHyIvWK8DWyfjOEwAQ)
-
+![](https://github.com/AmirAkmed/bookstore/blob/main/static/img/book%20title.png)
 
 
 
 **Testing**
 
+In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+
+In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+
+You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+
+If this section grows too long, you may want to split it off into a separate file and link to it from here.
+
+
+### **Validator Testing**<a id="validator-testing"></a>
+
+- HTML
+
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+
+- CSS
+
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html\&profile=css3svg\&usermedium=all\&warning=1\&vextwarning=\&lang=en#css)
+
+
+### **Unfixed Bugs**<a id="unfixed-bugs"></a>
+
+You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+
+
 
 
 **Deployment**
 
+
+Kanban board!
+
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+  - In the GitHub repository, navigate to the Settings tab
+
+  - From the source section drop-down menu, select the Master Branch
+
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found here - <https://code-institute-org.github.io/love-running-2.0/index.html>
+
+
 **Citation of ALL sources(code,images, text)**
+
+
+In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
+
+You can break the credits section up into Content and Media, depending on what you have included in your project.
+
+
+### **Content**<a id="content"></a>
+
+- The text for the Home page was taken from Wikipedia Article A
+
+- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
+
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+
+
+### **Media**<a id="media"></a>
+
+- The photos used on the home and sign up page are from This Open Source site
+
+- The images used for the gallery page were taken from this other open source site
+
+Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
+
 
 **Future features**
 
+
+Features you did not add yet
+
+● You ran out of time
+
+● You weren’t sure if it was viable
+
+● Weren’t comfortable implementing
+
+
 **Known Bugs**
+
+
+
