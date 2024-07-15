@@ -139,11 +139,11 @@ If this section grows too long, you may want to split it off into a separate fil
 | Author List |  <img src="https://drive.google.com/uc?export=view&id=1jtmRDqd6hTvefzrGdDsjamjoXZTI9m-d" width="750" /> | Pass: No Errors |
 | Author Form |  <img src="https://drive.google.com/uc?export=view&id=1GuFMphiiA2CAnKpDeXQh_fFkjCfKxL1Q" width="750" />   | Pass: but there are extraneous newline characters (↩) these characters are not valid in HTML and can cause validation errors. |
 | Author Detail |<img src="https://drive.google.com/uc?export=view&id=1ucnFGjgKRYGIN6jG3-asF9OjRQG91ZOM" width="750" />   | Pass: but there are extraneous newline characters (↩) these characters are not valid in HTML and can cause validation errors. |
-| 0000 Author Confirm Delete |<img src="https://drive.google.com/uc?export=view&id=15PUQ24YHHTpBiaIV_zP8kKetFZ2wtJzx" width="750" />  | Pass: No Errors |
+| Author Confirm Delete |<img src="https://drive.google.com/uc?export=view&id=15PUQ24YHHTpBiaIV_zP8kKetFZ2wtJzx" width="750" />  | Pass: No Errors |
 | Book List |    <img src="https://drive.google.com/uc?export=view&id=10U9tDA1H1hygVOKE0fmDLgjkXIuWrFzA" width="750" />  | Pass: No Errors |
 | Book Form |    <img src="https://drive.google.com/uc?export=view&id=1gcW94ZajuFSAUn8BwQvDmEw9J44NXEuv" width="750" />  | Pass: No Errors |
-|0000 Book Detail |          <img src="https://drive.google.com/uc?export=view&id=1wt3y_k2PwK3830DfAhl9qz-tKfzQsxSx" width="750" />  | Pass: No Errors |
-|0000 Book Confirm Delete |  <img src="https://drive.google.com/uc?export=view&id=1bddBkIkFw8iPkJ_rEjaXRscis4etESfd" width="750" />  | Pass: No Errors |
+|Book Detail |          <img src="https://drive.google.com/uc?export=view&id=1wt3y_k2PwK3830DfAhl9qz-tKfzQsxSx" width="750" />  | Pass: No Errors |
+|Book Confirm Delete |  <img src="https://drive.google.com/uc?export=view&id=1bddBkIkFw8iPkJ_rEjaXRscis4etESfd" width="750" />  | Pass: No Errors |
 
 #### **CSS** 
 
@@ -177,7 +177,7 @@ I have tested the site using the following browsers:
 
 * Microsoft Edge
 
-
+<img src="https://drive.google.com/uc?export=view&id=1OWZjcZ2ZcQ4OJCjCtH6tuQ3JcedT7EbR" />
 
 
 
@@ -189,16 +189,16 @@ I have tested the site using the following browsers:
 
 | Feature | Expected Outcome | Result | Screenshots |
 | ------- | ---------------- | ------ | ----------- |
-|  Sign Up       |                  |   Pass: No Errors     | <img src="https://drive.google.com/uc?export=view&id=1Pgi5Ok0SV4f9VPgIS9Pps9W_rgUTGiJY" width="650" /> |
-|  Sign In Page       |                  |      Pass  | <img src="https://drive.google.com/uc?export=view&id=1r2GZC8oI1poaxo16zNnG75MXMEKdJ5Bv" width="650" /> |
-|  Sign In Success       |                  |     Pass   | <img src="https://drive.google.com/uc?export=view&id=19sr1mR1eahVmjA9paXi0NcZKbr_cs62S" width="650" /> |
-|  Sign Out Success       |                  |    Pass   | <img src="https://drive.google.com/uc?export=view&id=1oeYET3IrlEY6gRKBo1RncS-QlMulag-k" width="650" /> |
-|  Author Create Success       |                  |   Pass     | <img src="https://drive.google.com/uc?export=view&id=18JGOy9xSNCmN_7HQaVjOQK5XdnelR2jX" width="650" /> |
-|  Book Create Success       |                  |      Pass  | <img src="https://drive.google.com/uc?export=view&id=1rliMtqTKEE4gpSfILAcfQWMXNPjTOC0N" width="650" /> |
-|  Delete Author       |                  |    Pass   | <img src="https://drive.google.com/uc?export=view&id=1vXop7QcLFbwhJV2Fkrq8hEu-9j-BmtBD" width="650" /> |
-|  Delete Book       |                  |     Pass | <img src="https://drive.google.com/uc?export=view&id=103MYcPTFVvgR-5OyUsD7rPl_nPKUJ0MN" width="650" /> |
-|  Author Delete Success       |                  |    Pass   | <img src="https://drive.google.com/uc?export=view&id=1zjYCANrPH6w89ZurZYoJ2-ueKMloUl-k" width="650" /> |
-|  Book Delete Success       |                  |     Pass  | <img src="https://drive.google.com/uc?export=view&id=14f97FjqxlyWwtkBXGbCuYJp3IEJzCvfN" width="650" /> |
+|  Sign Up       |  New users can access a sign up form from the "Register" link	                |   Pass: No Errors     | <img src="https://drive.google.com/uc?export=view&id=1Pgi5Ok0SV4f9VPgIS9Pps9W_rgUTGiJY" width="650" /> |
+|  Sign In Page       |  Users can log in using a form after clicking "Log in"           |      Pass  | <img src="https://drive.google.com/uc?export=view&id=1r2GZC8oI1poaxo16zNnG75MXMEKdJ5Bv" width="650" /> |
+|  Sign In Success       |    Text displays the user logged in with their username	              |     Pass   | <img src="https://drive.google.com/uc?export=view&id=19sr1mR1eahVmjA9paXi0NcZKbr_cs62S" width="650" /> |
+|  Sign Out Success       |    Users successfully log out after clicking "Log out"              |    Pass   | <img src="https://drive.google.com/uc?export=view&id=1oeYET3IrlEY6gRKBo1RncS-QlMulag-k" width="650" /> |
+|  Author Create Success       |    Acknowledgement of author created	successfully                 |   Pass     | <img src="https://drive.google.com/uc?export=view&id=18JGOy9xSNCmN_7HQaVjOQK5XdnelR2jX" width="650" /> |
+|  Book Create Success       |   Acknowledgement of book created	successfully	              |      Pass  | <img src="https://drive.google.com/uc?export=view&id=1rliMtqTKEE4gpSfILAcfQWMXNPjTOC0N" width="650" /> |
+|  Delete Author       |   Confirmation of deletion of author              |    Pass   | <img src="https://drive.google.com/uc?export=view&id=1vXop7QcLFbwhJV2Fkrq8hEu-9j-BmtBD" width="650" /> |
+|  Delete Book       |   Confirmation of deletion of book 	               |     Pass | <img src="https://drive.google.com/uc?export=view&id=103MYcPTFVvgR-5OyUsD7rPl_nPKUJ0MN" width="650" /> |
+|  Author Delete Success       |  Acknowledgement of author deleted	successfully                |    Pass   | <img src="https://drive.google.com/uc?export=view&id=1zjYCANrPH6w89ZurZYoJ2-ueKMloUl-k" width="650" /> |
+|  Book Delete Success       |   Acknowledgement of book deleted	successfully              |     Pass  | <img src="https://drive.google.com/uc?export=view&id=14f97FjqxlyWwtkBXGbCuYJp3IEJzCvfN" width="650" /> |
 
 
 
