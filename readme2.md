@@ -3,10 +3,11 @@
 
 
 
-**Project overview**
+### **Project overview**
+
 This website is for a small exclusive bookstore holding classical literature by well known authors over the centuries. The staff are interested in holding a list of authors that are of particular interest to them and the books that they have published. Guests can view these authors and books but cannot update or create any records only staff can. The bookstore website is targeted to book sellers and book readers who enjoy books.
 
-**List of features**
+### **List of features**
 
 ****![](https://github.com/AmirAkmed/bookstore/blob/main/static/img/authors.png)****
 
@@ -31,7 +32,7 @@ The bookstore staff are able to see the book names and authors as well as being 
 Staff are required to login to be able to create, delete and edit records. ****They can simply register with an username and password.
 
 
-**UX/UI**
+### **UX/UI**
 
 
 **Goals** 
@@ -109,7 +110,7 @@ Book
 <img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/book%20title.png" width="650" />
 
 
-**Testing**
+### **Testing**
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -120,7 +121,7 @@ You should also mention in this section any interesting bugs or problems you dis
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 
-### **Validator Testing**<a id="validator-testing"></a>
+**Validator Testing**<a id="validator-testing"></a>
 
 - HTML
 
@@ -166,7 +167,7 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 
 
 
-**Deployment**
+### **Deployment**
 
 
 Kanban board!
@@ -184,15 +185,14 @@ This section should describe the process you went through to deploy the project 
 The live link can be found here - <https://code-institute-org.github.io/love-running-2.0/index.html>
 
 
-**Citation of ALL sources(code,images, text)**
+### **Citation of ALL sources(code,images, text)**
 
 
 In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
 
 You can break the credits section up into Content and Media, depending on what you have included in your project.
 
-
-### **Content**<a id="content"></a>
+ **Content**<a id="content"></a>
 
 - The text for the Home page was taken from Wikipedia Article A
 
@@ -200,8 +200,7 @@ You can break the credits section up into Content and Media, depending on what y
 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
-
-### **Media**<a id="media"></a>
+ **Media**<a id="media"></a>
 
 - The photos used on the home and sign up page are from This Open Source site
 
@@ -210,7 +209,7 @@ You can break the credits section up into Content and Media, depending on what y
 Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
 
 
-**Future features**
+### **Future features**
 
 book covers 
 
@@ -223,7 +222,7 @@ Features you did not add yet
 ● Weren’t comfortable implementing
 
 
-**Known Bugs**
+### **Known Bugs**
 
 
 
