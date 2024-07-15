@@ -1,15 +1,6 @@
 
 
-Testing 
 
-| Page | W3C URL| Screenshot | Notes |
-| ---- | ------ | ---------- | ----- |
-| Home |  [W3C] (http.....) |         <img src="https://drive.google.com/uc?export=view&id=1GnTdTjI_lyIjFuTJjRUn6xK8EXxQuJuv" width="650" />  | Pass |
-| Author List |  [W3C] (http.....) |  <img src="https://drive.google.com/uc?export=view&id=1jtmRDqd6hTvefzrGdDsjamjoXZTI9m-d" width="750" /> | Pass |
-| Author Form |  [W3C] (http.....) | <img src="https://drive.google.com/uc?export=view&id=1GuFMphiiA2CAnKpDeXQh_fFkjCfKxL1Q" width="750" />   | Pass; there are extraneous newline characters (↩) these characters are not valid in HTML and can cause validation errors. |
-| Author Detail |  [W3C] (http.....) | <img src="https://drive.google.com/uc?export=view&id=1ucnFGjgKRYGIN6jG3-asF9OjRQG91ZOM" width="750" />   | Pass; there are extraneous newline characters (↩) these characters are not valid in HTML and can cause validation errors. |
-| Book List |  [W3C] (http.....) |    <img src="https://drive.google.com/uc?export=view&id=10U9tDA1H1hygVOKE0fmDLgjkXIuWrFzA" width="750" />  | Pass |
-| Book Form |  [W3C] (http.....) |  <img src="https://drive.google.com/uc?export=view&id=1gcW94ZajuFSAUn8BwQvDmEw9J44NXEuv" width="750" />  | Pass |
 
 
 **Project overview**
@@ -139,17 +130,16 @@ If this section grows too long, you may want to split it off into a separate fil
 
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html\&profile=css3svg\&usermedium=all\&warning=1\&vextwarning=\&lang=en#css)
 
-Testing 
+**Testing** 
 
-| Page | W3C URL| Screenshot | Notes |
-| ---- | ------ | ---------- | ----- |
-| Home |  [W3C] (http.....) | [Link 3](https://drive.google.com/file/d/1GnTdTjI_lyIjFuTJjRUn6xK8EXxQuJuv/view?usp=drive_link)  | Pass |
-| Author List |  [W3C] (http.....) |  <img src="https://drive.google.com/uc?export=view&id=1jtmRDqd6hTvefzrGdDsjamjoXZTI9m-d" width="650" /> | Pass |
-| Book List |  [W3C] (http.....) | [Link 2](https://drive.google.com/file/d/10U9tDA1H1hygVOKE0fmDLgjkXIuWrFzA)  | Pass |
-
-https://drive.google.com/file/d/10U9tDA1H1hygVOKE0fmDLgjkXIuWrFzA/view?usp=drive_link
-https://drive.google.com/uc?export=view&id=1Pgi5Ok0SV4f9VPgIS9Pps9W_rgUTGiJY
-
+| Page | Screenshot | Notes |
+| ---- | ---------- | ----- |
+| Home |         <img src="https://drive.google.com/uc?export=view&id=1GnTdTjI_lyIjFuTJjRUn6xK8EXxQuJuv" width="650" />  | Pass |
+| Author List |  <img src="https://drive.google.com/uc?export=view&id=1jtmRDqd6hTvefzrGdDsjamjoXZTI9m-d" width="750" /> | Pass |
+| Author Form |  <img src="https://drive.google.com/uc?export=view&id=1GuFMphiiA2CAnKpDeXQh_fFkjCfKxL1Q" width="750" />   | Pass; there are extraneous newline characters (↩) these characters are not valid in HTML and can cause validation errors. |
+| Author Detail |<img src="https://drive.google.com/uc?export=view&id=1ucnFGjgKRYGIN6jG3-asF9OjRQG91ZOM" width="750" />   | Pass; there are extraneous newline characters (↩) these characters are not valid in HTML and can cause validation errors. |
+| Book List |    <img src="https://drive.google.com/uc?export=view&id=10U9tDA1H1hygVOKE0fmDLgjkXIuWrFzA" width="750" />  | Pass |
+| Book Form |    <img src="https://drive.google.com/uc?export=view&id=1gcW94ZajuFSAUn8BwQvDmEw9J44NXEuv" width="750" />  | Pass |
 
 **TABLE**
 
