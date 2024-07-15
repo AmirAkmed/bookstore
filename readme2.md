@@ -1,5 +1,12 @@
 
 
+Testing 
+
+| Page | W3C URL| Screenshot | Notes |
+| ---- | ------ | ---------- | ----- |
+| Home |  [W3C] (http.....) | [Link 3](https://drive.google.com/file/d/1GnTdTjI_lyIjFuTJjRUn6xK8EXxQuJuv/view?usp=drive_link)  | Pass |
+| Author List |  [W3C] (http.....) |  <img src="https://drive.google.com/uc?export=view&id=1jtmRDqd6hTvefzrGdDsjamjoXZTI9m-d" width="750" /> | Pass |
+| Book List |  [W3C] (http.....) | [Link 2](https://drive.google.com/file/d/10U9tDA1H1hygVOKE0fmDLgjkXIuWrFzA)  | Pass |
 
 
 **Project overview**
@@ -134,10 +141,11 @@ Testing
 | Page | W3C URL| Screenshot | Notes |
 | ---- | ------ | ---------- | ----- |
 | Home |  [W3C] (http.....) | [Link 3](https://drive.google.com/file/d/1GnTdTjI_lyIjFuTJjRUn6xK8EXxQuJuv/view?usp=drive_link)  | Pass |
-| Author List |  [W3C] (http.....) |  [Link 1](https://drive.google.com/file/d/1jtmRDqd6hTvefzrGdDsjamjoXZTI9m-d/view?usp=drive_link)  | Pass |
-| Book List |  [W3C] (http.....) | [Link 2](https://drive.google.com/file/d/10U9tDA1H1hygVOKE0fmDLgjkXIuWrFzA/view?usp=drive_link)  | Pass |
+| Author List |  [W3C] (http.....) |  <img src="https://drive.google.com/uc?export=view&id=1jtmRDqd6hTvefzrGdDsjamjoXZTI9m-d" width="650" /> | Pass |
+| Book List |  [W3C] (http.....) | [Link 2](https://drive.google.com/file/d/10U9tDA1H1hygVOKE0fmDLgjkXIuWrFzA)  | Pass |
 
-
+https://drive.google.com/file/d/10U9tDA1H1hygVOKE0fmDLgjkXIuWrFzA/view?usp=drive_link
+https://drive.google.com/uc?export=view&id=1Pgi5Ok0SV4f9VPgIS9Pps9W_rgUTGiJY
 
 
 **TABLE**
