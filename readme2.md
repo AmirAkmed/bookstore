@@ -139,8 +139,21 @@ If this section grows too long, you may want to split it off into a separate fil
 | Author List |  <img src="https://drive.google.com/uc?export=view&id=1jtmRDqd6hTvefzrGdDsjamjoXZTI9m-d" width="750" /> | Pass |
 | Author Form |  <img src="https://drive.google.com/uc?export=view&id=1GuFMphiiA2CAnKpDeXQh_fFkjCfKxL1Q" width="750" />   | Pass; there are extraneous newline characters (↩) these characters are not valid in HTML and can cause validation errors. |
 | Author Detail |<img src="https://drive.google.com/uc?export=view&id=1ucnFGjgKRYGIN6jG3-asF9OjRQG91ZOM" width="750" />   | Pass; there are extraneous newline characters (↩) these characters are not valid in HTML and can cause validation errors. |
+| 0000 Author Confirm Delete |<img src="https://drive.google.com/uc?export=view&id=15PUQ24YHHTpBiaIV_zP8kKetFZ2wtJzx" width="750" />  | Pass |
 | Book List |    <img src="https://drive.google.com/uc?export=view&id=10U9tDA1H1hygVOKE0fmDLgjkXIuWrFzA" width="750" />  | Pass |
 | Book Form |    <img src="https://drive.google.com/uc?export=view&id=1gcW94ZajuFSAUn8BwQvDmEw9J44NXEuv" width="750" />  | Pass |
+|0000 Book Detail |          <img src="https://drive.google.com/uc?export=view&id=1wt3y_k2PwK3830DfAhl9qz-tKfzQsxSx" width="750" />  | Pass |
+|0000 Book Confirm Delete |  <img src="https://drive.google.com/uc?export=view&id=1bddBkIkFw8iPkJ_rEjaXRscis4etESfd" width="750" />  | Pass |
+
+https://drive.google.com/file/d//view?usp=sharing
+
+
+https://drive.google.com/file/d//view?usp=sharing
+
+https://drive.google.com/file/d//view?usp=sharing
+
+
+
 
 **TABLE**
 
