@@ -153,6 +153,17 @@ If this section grows too long, you may want to split it off into a separate fil
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 #### **Responsiveness**
 Development tools were used to test responsiveness on varying devices including laptop, mobile.
 
