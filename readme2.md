@@ -4,9 +4,12 @@ Testing
 
 | Page | W3C URL| Screenshot | Notes |
 | ---- | ------ | ---------- | ----- |
-| Home |  [W3C] (http.....) | [Link 3](https://drive.google.com/file/d/1GnTdTjI_lyIjFuTJjRUn6xK8EXxQuJuv/view?usp=drive_link)  | Pass |
+| Home |  [W3C] (http.....) |         <img src="https://drive.google.com/uc?export=view&id=1GnTdTjI_lyIjFuTJjRUn6xK8EXxQuJuv" width="650" />  | Pass |
 | Author List |  [W3C] (http.....) |  <img src="https://drive.google.com/uc?export=view&id=1jtmRDqd6hTvefzrGdDsjamjoXZTI9m-d" width="750" /> | Pass |
-| Book List |  [W3C] (http.....) | [Link 2](https://drive.google.com/file/d/10U9tDA1H1hygVOKE0fmDLgjkXIuWrFzA)  | Pass |
+| Author Form |  [W3C] (http.....) | <img src="https://drive.google.com/uc?export=view&id=1GuFMphiiA2CAnKpDeXQh_fFkjCfKxL1Q" width="750" />   | Pass |
+| Author Detail |  [W3C] (http.....) | <img src="https://drive.google.com/uc?export=view&id=1ucnFGjgKRYGIN6jG3-asF9OjRQG91ZOM" width="750" />   | Pass |
+| Book List |  [W3C] (http.....) |    <img src="https://drive.google.com/uc?export=view&id=10U9tDA1H1hygVOKE0fmDLgjkXIuWrFzA" width="750" />  | Pass |
+| Book Form |  [W3C] (http.....) |  <img src="https://drive.google.com/uc?export=view&id=1gcW94ZajuFSAUn8BwQvDmEw9J44NXEuv" width="750" />  | Pass |
 
 
 **Project overview**
