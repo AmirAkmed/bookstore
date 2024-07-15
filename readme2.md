@@ -5,7 +5,21 @@
 
 # **Project overview**
 
-This website is for a small exclusive bookstore holding classical literature by well known authors over the centuries. The staff are interested in holding a list of authors that are of particular interest to them and the books that they have published. Guests can view these authors and books but cannot update or create any records only staff can. The bookstore website is targeted to book sellers and book readers who enjoy books.
+## Introduction
+
+Welcome to the **Exclusive Classics Bookstore App** repository. This project is designed for a small, specialist bookstore that prides itself on its collection of classical literature. The bookstore focuses on exclusive prints and antique editions with historical significance, curated from popular and famous authors over the centuries.
+
+This app is intended to facilitate the management of this unique collection by providing a system for staff to maintain a comprehensive list of authors and the books they have published. The app is built with two primary tables: one for authors and another for their respective publications.
+
+Key Features:
+
+* **Author Management**: Easily add, edit, and delete author information.
+* **Book Management**: Maintain detailed records of books, including titles, publication dates, and associated authors.
+* **Staff-Only Access**: Secure login system ensuring that only authorized staff members can access and manage the information.
+
+Please note that this system is exclusively for internal use. Customers will not have access to the site or its contents. This ensures that our treasured collection remains secure and meticulously documented.
+We hope this tool enhances your experience in managing our esteemed collection of classical literature.
+
 
 ## **List of features**
 
