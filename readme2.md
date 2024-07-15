@@ -2,7 +2,7 @@
 
 | Feature | Expected Outcome | Result | Screenshots |
 | ------- | ---------------- | ------ | ----------- |
-|         |                  |        | <img src="https://drive.google.com/uc?export=view&id=18JGOy9xSNCmN_7HQaVjOQK5XdnelR2jX" width="600" /> |
+|         |                  |        | <img src="https://drive.google.com/uc?export=view&id=18JGOy9xSNCmN_7HQaVjOQK5XdnelR2jX" width="650" /> |
 
 
 **Project overview**
