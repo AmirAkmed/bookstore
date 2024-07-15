@@ -1,6 +1,6 @@
 
 
-
+<img src="https://drive.google.com/uc?export=view&id=1Tqg0yJPeIFMMwB5N2ZfchMcd7HRtU71Q" />
 
 
 ### **Project overview**
@@ -131,29 +131,25 @@ If this section grows too long, you may want to split it off into a separate fil
 
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html\&profile=css3svg\&usermedium=all\&warning=1\&vextwarning=\&lang=en#css)
 
-**Testing** 
+## **HTML** 
 
 | Page | Screenshot | Notes |
 | ---- | ---------- | ----- |
-| Home |         <img src="https://drive.google.com/uc?export=view&id=1GnTdTjI_lyIjFuTJjRUn6xK8EXxQuJuv" width="650" />  | Pass |
-| Author List |  <img src="https://drive.google.com/uc?export=view&id=1jtmRDqd6hTvefzrGdDsjamjoXZTI9m-d" width="750" /> | Pass |
-| Author Form |  <img src="https://drive.google.com/uc?export=view&id=1GuFMphiiA2CAnKpDeXQh_fFkjCfKxL1Q" width="750" />   | Pass; there are extraneous newline characters (↩) these characters are not valid in HTML and can cause validation errors. |
-| Author Detail |<img src="https://drive.google.com/uc?export=view&id=1ucnFGjgKRYGIN6jG3-asF9OjRQG91ZOM" width="750" />   | Pass; there are extraneous newline characters (↩) these characters are not valid in HTML and can cause validation errors. |
-| 0000 Author Confirm Delete |<img src="https://drive.google.com/uc?export=view&id=15PUQ24YHHTpBiaIV_zP8kKetFZ2wtJzx" width="750" />  | Pass |
-| Book List |    <img src="https://drive.google.com/uc?export=view&id=10U9tDA1H1hygVOKE0fmDLgjkXIuWrFzA" width="750" />  | Pass |
-| Book Form |    <img src="https://drive.google.com/uc?export=view&id=1gcW94ZajuFSAUn8BwQvDmEw9J44NXEuv" width="750" />  | Pass |
-|0000 Book Detail |          <img src="https://drive.google.com/uc?export=view&id=1wt3y_k2PwK3830DfAhl9qz-tKfzQsxSx" width="750" />  | Pass |
-|0000 Book Confirm Delete |  <img src="https://drive.google.com/uc?export=view&id=1bddBkIkFw8iPkJ_rEjaXRscis4etESfd" width="750" />  | Pass |
+| Home |         <img src="https://drive.google.com/uc?export=view&id=1GnTdTjI_lyIjFuTJjRUn6xK8EXxQuJuv" width="650" />  | Pass: No Errors |
+| Author List |  <img src="https://drive.google.com/uc?export=view&id=1jtmRDqd6hTvefzrGdDsjamjoXZTI9m-d" width="750" /> | Pass: No Errors |
+| Author Form |  <img src="https://drive.google.com/uc?export=view&id=1GuFMphiiA2CAnKpDeXQh_fFkjCfKxL1Q" width="750" />   | Pass: but there are extraneous newline characters (↩) these characters are not valid in HTML and can cause validation errors. |
+| Author Detail |<img src="https://drive.google.com/uc?export=view&id=1ucnFGjgKRYGIN6jG3-asF9OjRQG91ZOM" width="750" />   | Pass: but there are extraneous newline characters (↩) these characters are not valid in HTML and can cause validation errors. |
+| 0000 Author Confirm Delete |<img src="https://drive.google.com/uc?export=view&id=15PUQ24YHHTpBiaIV_zP8kKetFZ2wtJzx" width="750" />  | Pass: No Errors |
+| Book List |    <img src="https://drive.google.com/uc?export=view&id=10U9tDA1H1hygVOKE0fmDLgjkXIuWrFzA" width="750" />  | Pass: No Errors |
+| Book Form |    <img src="https://drive.google.com/uc?export=view&id=1gcW94ZajuFSAUn8BwQvDmEw9J44NXEuv" width="750" />  | Pass: No Errors |
+|0000 Book Detail |          <img src="https://drive.google.com/uc?export=view&id=1wt3y_k2PwK3830DfAhl9qz-tKfzQsxSx" width="750" />  | Pass: No Errors |
+|0000 Book Confirm Delete |  <img src="https://drive.google.com/uc?export=view&id=1bddBkIkFw8iPkJ_rEjaXRscis4etESfd" width="750" />  | Pass: No Errors |
 
-https://drive.google.com/file/d//view?usp=sharing
+## **CSS** 
 
-
-https://drive.google.com/file/d//view?usp=sharing
-
-https://drive.google.com/file/d//view?usp=sharing
-
-
-
+| File | Screenshot | Notes |
+| ---- | ---------- | ----- |
+| style.css| <img src="https://drive.google.com/uc?export=view&id=1egYf3FvcEPMMUYG8CyTYXqS4c0C0mT4o" width="750" /> | Pass: No Errors|
 
 **TABLE**
 
@@ -170,6 +166,31 @@ https://drive.google.com/file/d//view?usp=sharing
 |  Delete Book       |                  |     Pass | <img src="https://drive.google.com/uc?export=view&id=103MYcPTFVvgR-5OyUsD7rPl_nPKUJ0MN" width="650" /> |
 |  Author Delete Success       |                  |    Pass   | <img src="https://drive.google.com/uc?export=view&id=1zjYCANrPH6w89ZurZYoJ2-ueKMloUl-k" width="650" /> |
 |  Book Delete Success       |                  |     Pass  | <img src="https://drive.google.com/uc?export=view&id=14f97FjqxlyWwtkBXGbCuYJp3IEJzCvfN" width="650" /> |
+
+### **Responsiveness**
+Development tools were used to test responsiveness on varying devices including laptop, mobile.
+
+Full testing was performed on the following devices:
+
+Laptop:
+
+* Lenovo Thinkpad Yoga 14" screen 
+
+Mobile Devices:
+
+* Samsung S21
+
+Browser Compatibility:
+
+I have tested the site using the following browsers:
+
+* Google Chrome
+
+<img src="https://drive.google.com/uc?export=view&id=1MM9yIDkaIE8M9BJZCSdAnqgQgU2C0gVb" />
+
+
+* Microsoft Edge
+
 
 
 
