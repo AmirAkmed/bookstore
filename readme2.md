@@ -1,23 +1,10 @@
 
-\| Feature | Expected Outcome | Result | Screenshots                |
 
-\|---------------|------------------|--------|------------------------------------------------------------------------------------------------------------|
+| Feature | Expected Outcome | Result | Screenshots |
+| ------- | ---------------- | ------ | ----------- |
+|         |                  |        | ![Image 1](https://drive.google.com/uc?export=view&id=18JGOy9xSNCmN_7HQaVjOQK5XdnelR2jX) |
+|         |                  |        | <img src="https://drive.google.com/uc?export=view&id=18JGOy9xSNCmN_7HQaVjOQK5XdnelR2jX" width="768" /> |
 
-|               |                  |        |  ![Image 1](https://drive.google.com/uc?export=view&id=18JGOy9xSNCmN_7HQaVjOQK5XdnelR2jX) | 
-
-|               |                  |        |                                            | 
-
-|               |                  |        |                            | 
-
-|               |                  |        |                            | 
-
-|               |                  |        |                            | 
-
-|               |                  |        |                            | 
-
-|               |                  |        |                            | 
-
-|               |                  |        |                            | 
 
 **Project overview**
 This website is for a small exclusive bookstore holding classical literature by well known authors over the centuries. The staff are interested in holding a list of authors that are of particular interest to them and the books that they have published. Guests can view these authors and books but cannot update or create any records only staff can. The bookstore website is targeted to book sellers and book readers who enjoy books.
