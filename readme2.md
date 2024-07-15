@@ -3,11 +3,11 @@
 <img src="https://drive.google.com/uc?export=view&id=1Tqg0yJPeIFMMwB5N2ZfchMcd7HRtU71Q" />
 
 
-### **Project overview**
+# **Project overview**
 
 This website is for a small exclusive bookstore holding classical literature by well known authors over the centuries. The staff are interested in holding a list of authors that are of particular interest to them and the books that they have published. Guests can view these authors and books but cannot update or create any records only staff can. The bookstore website is targeted to book sellers and book readers who enjoy books.
 
-### **List of features**
+##**List of features**
 
 ****![](https://github.com/AmirAkmed/bookstore/blob/main/static/img/authors.png)****
 
@@ -110,7 +110,7 @@ Book
 <img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/book%20title.png" width="650" />
 
 
-### **Testing**
+## **Testing**
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -167,7 +167,7 @@ If this section grows too long, you may want to split it off into a separate fil
 |  Author Delete Success       |                  |    Pass   | <img src="https://drive.google.com/uc?export=view&id=1zjYCANrPH6w89ZurZYoJ2-ueKMloUl-k" width="650" /> |
 |  Book Delete Success       |                  |     Pass  | <img src="https://drive.google.com/uc?export=view&id=14f97FjqxlyWwtkBXGbCuYJp3IEJzCvfN" width="650" /> |
 
-### **Responsiveness**
+## **Responsiveness**
 Development tools were used to test responsiveness on varying devices including laptop, mobile.
 
 Full testing was performed on the following devices:
@@ -201,7 +201,7 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 
 
 
-### **Deployment**
+## **Deployment**
 
 
 Kanban board!
@@ -219,7 +219,7 @@ This section should describe the process you went through to deploy the project 
 The live link can be found here - <https://code-institute-org.github.io/love-running-2.0/index.html>
 
 
-### **Citation of ALL sources(code,images, text)**
+## **Citation of ALL sources(code,images, text)**
 
 
 In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
@@ -256,7 +256,7 @@ Features you did not add yet
 ● Weren’t comfortable implementing
 
 
-### **Known Bugs**
+## **Known Bugs**
 
 
 
