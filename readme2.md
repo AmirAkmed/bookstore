@@ -7,7 +7,7 @@
 
 This website is for a small exclusive bookstore holding classical literature by well known authors over the centuries. The staff are interested in holding a list of authors that are of particular interest to them and the books that they have published. Guests can view these authors and books but cannot update or create any records only staff can. The bookstore website is targeted to book sellers and book readers who enjoy books.
 
-##**List of features**
+## **List of features**
 
 ****![](https://github.com/AmirAkmed/bookstore/blob/main/static/img/authors.png)****
 
@@ -32,7 +32,7 @@ The bookstore staff are able to see the book names and authors as well as being 
 Staff are required to login to be able to create, delete and edit records. ****They can simply register with an username and password.
 
 
-### **UX/UI**
+## **UX/UI**
 
 
 **Goals** 
@@ -60,7 +60,7 @@ The schema should be basic and simple in design using primary and foreign keys. 
 - As a new user I want confirmation before I delete any records.
 
 
-***Planning and wireframe design***
+## ***Planning and wireframe design***
 
 **Database Schema for Author and Books**
 
@@ -99,7 +99,7 @@ The schema should be basic and simple in design using primary and foreign keys. 
 
 
 
-Book
+**Book**
 
 
 <img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/view%20book%20details.png " width="650" />
@@ -110,7 +110,7 @@ Book
 <img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/book%20title.png" width="650" />
 
 
-## **Testing**
+### **Testing**
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -131,7 +131,7 @@ If this section grows too long, you may want to split it off into a separate fil
 
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html\&profile=css3svg\&usermedium=all\&warning=1\&vextwarning=\&lang=en#css)
 
-## **HTML** 
+#### **HTML** 
 
 | Page | Screenshot | Notes |
 | ---- | ---------- | ----- |
@@ -145,13 +145,13 @@ If this section grows too long, you may want to split it off into a separate fil
 |0000 Book Detail |          <img src="https://drive.google.com/uc?export=view&id=1wt3y_k2PwK3830DfAhl9qz-tKfzQsxSx" width="750" />  | Pass: No Errors |
 |0000 Book Confirm Delete |  <img src="https://drive.google.com/uc?export=view&id=1bddBkIkFw8iPkJ_rEjaXRscis4etESfd" width="750" />  | Pass: No Errors |
 
-## **CSS** 
+#### **CSS** 
 
 | File | Screenshot | Notes |
 | ---- | ---------- | ----- |
 | style.css| <img src="https://drive.google.com/uc?export=view&id=1egYf3FvcEPMMUYG8CyTYXqS4c0C0mT4o" width="750" /> | Pass: No Errors|
 
-**TABLE**
+#### **TABLE**
 
 
 | Feature | Expected Outcome | Result | Screenshots |
@@ -167,7 +167,7 @@ If this section grows too long, you may want to split it off into a separate fil
 |  Author Delete Success       |                  |    Pass   | <img src="https://drive.google.com/uc?export=view&id=1zjYCANrPH6w89ZurZYoJ2-ueKMloUl-k" width="650" /> |
 |  Book Delete Success       |                  |     Pass  | <img src="https://drive.google.com/uc?export=view&id=14f97FjqxlyWwtkBXGbCuYJp3IEJzCvfN" width="650" /> |
 
-## **Responsiveness**
+#### **Responsiveness**
 Development tools were used to test responsiveness on varying devices including laptop, mobile.
 
 Full testing was performed on the following devices:
@@ -243,7 +243,7 @@ You can break the credits section up into Content and Media, depending on what y
 Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
 
 
-### **Future features**
+## **Future features**
 
 book covers 
 
