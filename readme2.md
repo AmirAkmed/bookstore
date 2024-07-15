@@ -18,6 +18,7 @@ Key Features:
 * **Staff-Only Access**: Secure login system ensuring that only authorized staff members can access and manage the information.
 
 Please note that this system is exclusively for internal use. Customers will not have access to the site or its contents. This ensures that our treasured collection remains secure and meticulously documented.
+
 We hope this tool enhances your experience in managing our esteemed collection of classical literature.
 
 
@@ -164,14 +165,6 @@ If this section grows too long, you may want to split it off into a separate fil
 | File | Screenshot | Notes |
 | ---- | ---------- | ----- |
 | style.css| <img src="https://drive.google.com/uc?export=view&id=1egYf3FvcEPMMUYG8CyTYXqS4c0C0mT4o" width="750" /> | Pass: No Errors|
-
-
-
-
-
-
-
-
 
 
 
