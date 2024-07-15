@@ -57,32 +57,41 @@ The schema should be basic and simple in design using primary and foreign keys. 
 
 - As a new user I want confirmation before I delete any records.
 
-FIND BOOK COVERS
 
-Planning and wireframe design
+***Planning and wireframe design***
 
-Database Schema for Author and Books
-
-![](https://github.com/AmirAkmed/bookstore/blob/main/static/img/schema.png)
-
-Homepage
-
-![](https://github.com/AmirAkmed/bookstore/blob/main/static/img/homepage.png)
-
-Login
-
-![](https://github.com/AmirAkmed/bookstore/blob/main/static/img/loginwf.png)
-
-Author
+**Database Schema for Author and Books**
 
 
-![](https://github.com/AmirAkmed/bookstore/blob/main/static/img/author.png)
+<img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/schema.png " width="650" />
 
 
-![](https://github.com/AmirAkmed/bookstore/blob/main/static/img/view%20author%20details.png)
+**Homepage**
 
 
-![](https://github.com/AmirAkmed/bookstore/blob/main/static/img/author%20list.png)
+<img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/homepage.png " width="650" />
+
+
+**Login**
+
+
+<img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/loginwf.png " width="650" />
+
+
+**Author**
+
+
+
+<img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/author.png " width="650" />
+
+
+
+<img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/view%20author%20details.png " width="650" />
+
+
+
+<img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/author%20list.png " width="650" />
+
 
 ![](h)
 
@@ -90,10 +99,13 @@ Author
 
 Book
 
-![](https://github.com/AmirAkmed/bookstore/blob/main/static/img/view%20book%20details.png)
 
-![](https://github.com/AmirAkmed/bookstore/blob/main/static/img/book%20title.png)
+<img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/view%20book%20details.png " width="650" />
 
+
+<img src="h " width="650" />
+
+<img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/book%20title.png" width="650" />
 
 
 **Testing**
@@ -117,11 +129,32 @@ If this section grows too long, you may want to split it off into a separate fil
 
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html\&profile=css3svg\&usermedium=all\&warning=1\&vextwarning=\&lang=en#css)
 
+Testing 
+
+| Page | W3C URL| Screenshot | Notes |
+| ---- | ------ | ---------- | ----- |
+| Home |  [W3C] (http.....) | [Link 3](https://drive.google.com/file/d/1GnTdTjI_lyIjFuTJjRUn6xK8EXxQuJuv/view?usp=drive_link)  | Pass |
+| Author List |  [W3C] (http.....) |  [Link 1](https://drive.google.com/file/d/1jtmRDqd6hTvefzrGdDsjamjoXZTI9m-d/view?usp=drive_link)  | Pass |
+| Book List |  [W3C] (http.....) | [Link 2](https://drive.google.com/file/d/10U9tDA1H1hygVOKE0fmDLgjkXIuWrFzA/view?usp=drive_link)  | Pass |
+
+
+
+
+**TABLE**
 
 
 | Feature | Expected Outcome | Result | Screenshots |
 | ------- | ---------------- | ------ | ----------- |
-|         |                  |        | <img src="https://drive.google.com/uc?export=view&id=18JGOy9xSNCmN_7HQaVjOQK5XdnelR2jX" width="650" /> |
+|  Sign Up       |                  |   Pass: No Errors     | <img src="https://drive.google.com/uc?export=view&id=1Pgi5Ok0SV4f9VPgIS9Pps9W_rgUTGiJY" width="650" /> |
+|  Sign In Page       |                  |      Pass  | <img src="https://drive.google.com/uc?export=view&id=1r2GZC8oI1poaxo16zNnG75MXMEKdJ5Bv" width="650" /> |
+|  Sign In Success       |                  |     Pass   | <img src="https://drive.google.com/uc?export=view&id=19sr1mR1eahVmjA9paXi0NcZKbr_cs62S" width="650" /> |
+|  Sign Out Success       |                  |    Pass   | <img src="https://drive.google.com/uc?export=view&id=1oeYET3IrlEY6gRKBo1RncS-QlMulag-k" width="650" /> |
+|  Author Create Success       |                  |   Pass     | <img src="https://drive.google.com/uc?export=view&id=18JGOy9xSNCmN_7HQaVjOQK5XdnelR2jX" width="650" /> |
+|  Book Create Success       |                  |      Pass  | <img src="https://drive.google.com/uc?export=view&id=1rliMtqTKEE4gpSfILAcfQWMXNPjTOC0N" width="650" /> |
+|  Delete Author       |                  |    Pass   | <img src="https://drive.google.com/uc?export=view&id=1vXop7QcLFbwhJV2Fkrq8hEu-9j-BmtBD" width="650" /> |
+|  Delete Book       |                  |     Pass | <img src="https://drive.google.com/uc?export=view&id=103MYcPTFVvgR-5OyUsD7rPl_nPKUJ0MN" width="650" /> |
+|  Author Delete Success       |                  |    Pass   | <img src="https://drive.google.com/uc?export=view&id=1zjYCANrPH6w89ZurZYoJ2-ueKMloUl-k" width="650" /> |
+|  Book Delete Success       |                  |     Pass  | <img src="https://drive.google.com/uc?export=view&id=14f97FjqxlyWwtkBXGbCuYJp3IEJzCvfN" width="650" /> |
 
 
 
@@ -178,6 +211,7 @@ Congratulations on completing your Readme, you have made another big stride in t
 
 **Future features**
 
+book covers 
 
 Features you did not add yet
 
