@@ -1,4 +1,23 @@
 
+\| Feature | Expected Outcome | Result | Screenshots                |
+
+\|---------------|------------------|--------|------------------------------------------------------------------------------------------------------------|
+
+|               |                  |        |  ![Image 1](https://drive.google.com/uc?export=view&id=18JGOy9xSNCmN_7HQaVjOQK5XdnelR2jX) | 
+
+|               |                  |        |                                            | 
+
+|               |                  |        |                            | 
+
+|               |                  |        |                            | 
+
+|               |                  |        |                            | 
+
+|               |                  |        |                            | 
+
+|               |                  |        |                            | 
+
+|               |                  |        |                            | 
 
 **Project overview**
 This website is for a small exclusive bookstore holding classical literature by well known authors over the centuries. The staff are interested in holding a list of authors that are of particular interest to them and the books that they have published. Guests can view these authors and books but cannot update or create any records only staff can. The bookstore website is targeted to book sellers and book readers who enjoy books.
@@ -114,6 +133,22 @@ If this section grows too long, you may want to split it off into a separate fil
 - CSS
 
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html\&profile=css3svg\&usermedium=all\&warning=1\&vextwarning=\&lang=en#css)
+
+| Feature | Expected Outcome | Result | Screenshots                |
+|---------------|------------------|--------|--------------------------------------|
+|               |                  |        | ![](https\://imgur.com/7O59pya) | 
+|               |                  |        |                            | 
+|               |                  |        |                            | 
+|               |                  |        |                            | 
+|               |                  |        |                            | 
+|               |                  |        |                            | 
+|               |                  |        |                            | 
+|               |                  |        |                            | 
+
+
+
+
+
 
 
 ### **Unfixed Bugs**<a id="unfixed-bugs"></a>
