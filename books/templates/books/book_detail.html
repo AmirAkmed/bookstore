@@ -1,11 +1,23 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h1>{{ book.title }}</h1>
-{% if book.cover %}
-    <img src="{{ book.cover.url }}" class="img-fluid" alt="{{ book.title }}">
-{% endif %}
-<p><strong>Author:</strong> {{ book.author.name }}</p>
-<p><strong>Publication Date:</strong> {{ book.publication_date }}</p>
-<a class="btn btn-primary" href="{% url 'book_list' %}">Back to Books</a>
+<div class="overlay-content" style="z-index: 5;">
+    <div class="container">
+        <div class="card" style="background-color: rgba(255, 255, 255, 0.5) !important;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 mt-3 offset-md-2">
+                        <h1>{{ book.title }}</h1>
+                        {% if book.cover %}
+                        <img src="{{ book.cover.url }}" class="img-fluid" alt="{{ book.title }}">
+                        {% endif %}
+                        <p><strong>Author:</strong> {{ book.author.name }}</p>
+                        <p><strong>Publication Date:</strong> {{ book.publication_date }}</p>
+                        <a class="btn btn-primary" href="{% url 'book_list' %}">Back to Books</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 {% endblock %}

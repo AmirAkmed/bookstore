@@ -1,10 +1,22 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h1>{{ author.name }}</h1>
-{% if author.photo %}
-    <img src="{{ author.photo.url }}" class="img-fluid" alt="{{ author.name }}">
-{% endif %}
-<p>{{ author.biography }}</p>
-<a class="btn btn-primary" href="{% url 'author_list' %}">Back to Authors</a>
+<div class="overlay-content" style="z-index: 5;">
+    <div class="container">
+        <div class="card" style="background-color: rgba(255, 255, 255, 0.5) !important;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 mt-3 offset-md-2">
+                        <h1>{{ author.name }}</h1>
+                        {% if author.photo %}
+                        <img src="{{ author.photo.url }}" class="img-fluid" alt="{{ author.name }}">
+                        {% endif %}
+                        <p>{{ author.biography }}</p>
+                        <a class="btn btn-primary" href="{% url 'author_list' %}">Back to Authors</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 {% endblock %}

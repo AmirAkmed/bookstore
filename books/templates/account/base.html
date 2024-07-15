@@ -7,12 +7,19 @@
     <title>{% block head_title %}{% endblock head_title %}</title>
     {% block extra_head %}
     {% endblock extra_head %}
+    <style>
+      .messages-container {
+          position: relative;
+          z-index: 25;
+          margin-top: 10px;
+      }
+      </style>
   </head>
   <body>
     {% block body %}
 
     {% if messages %}
-    <div>
+    <div class="messages-container container">
       <strong>{% trans "Messages:" %}</strong>
       <ul>
         {% for message in messages %}

@@ -38,6 +38,7 @@ ALLOWED_HOSTS = [
 
 CSRF_TRUSTED_ORIGINS = [
     "https://*.8000-amirakmed-bookstore-y9ii9ru2vz7.ws.codeinstitute-ide.net",
+    "https://8000-amirakmed-bookstore-q453q36wm8i.ws.codeinstitute-ide.net",
     "https://*.herokuapp.com"
 ]
 
@@ -110,16 +111,16 @@ WSGI_APPLICATION = 'bookstore.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
-
 DATABASES = {
-	'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
 }
+
+# DATABASES = {
+# 	'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
+# }
 
 # DATABASES = {
 #     'default': {

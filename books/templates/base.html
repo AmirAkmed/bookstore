@@ -5,20 +5,29 @@
 {% url 'account_logout' as logout_url %}
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bookstore</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
+        .messages-container {
+            position: relative;
+            z-index: 1000;
+            /* Ensures the messages are above other content */
+        }
+
         .hero-image {
             position: relative;
             width: 100%;
-            height: 100vh; /* Full height */
-            background-image: url({% static 'img/bkstr1792.webp' %});
-            background-size: cover; /* Ensure the image covers the viewport */
-            background-position: center; /* Center the image */
-            background-repeat: no-repeat;
+            overflow: hidden; /* Ensure the container does not exceed viewport */
+        }
+
+        .hero-image img {
+            width: 100%;
+            height: auto;
+            object-fit: cover; /* Cover the entire container while maintaining aspect ratio */
         }
 
         .hidden-hero {
@@ -26,6 +35,7 @@
         }
 
         .overlay-content {
+            z-index: 5;
             position: absolute;
             top: 0;
             left: 0;
@@ -34,24 +44,29 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            background-color: rgba(0, 0, 0, 0.5); /* Optional: to dim the background */
+            background-color: rgba(0, 0, 0, 0.5);
+            /* Optional: to dim the background */
         }
+
         .overlay-content .container {
-            background-color: rgba(255, 255, 255, 0.6);
+            background-color: rgba(255, 255, 255, 0.2);
             padding: 20px;
             border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
         }
 
         .navbar {
-            z-index: 20; /* Ensure navbar is above overlay */
+            z-index: 20;
+            /* Ensure navbar is above overlay */
         }
     </style>
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="{% url 'home' %}">Bookstore</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -59,41 +74,38 @@
                 <li class="nav-item"><a class="nav-link" href="{% url 'author_list' %}">Authors</a></li>
                 <li class="nav-item"><a class="nav-link" href="{% url 'book_list' %}">Books</a></li>
                 {% if user.is_authenticated %}
-                    <li class="nav-item"><a class="nav-link" href="{% url 'account_logout' %}">Logout</a></li>
+                <li class="nav-item"><a class="nav-link" href="{% url 'account_logout' %}">Logout</a></li>
                 {% else %}
-                    <li class="nav-item"><a class="nav-link" href="{% url 'account_login' %}">Login</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{% url 'account_signup' %}">Register</a></li>
+                <li class="nav-item"><a class="nav-link" href="{% url 'account_login' %}">Login</a></li>
+                <li class="nav-item"><a class="nav-link" href="{% url 'account_signup' %}">Register</a></li>
                 {% endif %}
             </ul>
         </div>
     </nav>
-    <div class="{% block hero_class %}hero-image{% endblock %}">
-            <img src="{% static 'img/bkstr1792.webp' %}"
-                 srcset="{% static 'img/bkstr480.webp' %} 480w,
-                        {% static 'img/bkstr768c.webp' %} 768w,
-                        {% static 'img/bkstr1280c.webp' %} 1280w,
-                        {% static 'img/bkstr1792.webp' %} 1792w,
-                 sizes="(max-width: 480px) 480px,
-                        (max-width: 768px) 768px,
-                        (max-width: 1280px) 1280px,
-                        1792px"
-                 alt="Hero Image"
-                 loading="lazy">
-    </div>
-        {% block overlay_content %}{% endblock %}
+    {% block overlay_content %}{% endblock %}
     <div class="container mt-4">
         {% if messages %}
-            <div class="alert alert-info">
-                {% for message in messages %}
-                    <div>{{ message }}</div>
-                {% endfor %}
-            </div>
+        <div class="messages-container">
+            {% for message in messages %}
+            <div class="alert alert-{{ message.tags }}">{{ message }}</div>
+            {% endfor %}
+        </div>
         {% endif %}
         {% block content %}
         {% endblock %}
     </div>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <div class="{% block hero_class %}hero-image{% endblock %}">
+        <img src="{% static 'img/bkstr1792.webp' %}" srcset="{% static 'img/bkstr480.webp' %} 480w,
+                        {% static 'img/bkstr768c.webp' %} 768w,
+                        {% static 'img/bkstr1280c.webp' %} 1280w,
+                        {% static 'img/bkstr1792.webp' %} 1792w"
+                 sizes="(max-width: 480px) 480px, (max-width: 768px) 768px, (max-width: 1280px) 1280px, 1792px"
+            alt="Hero Image" loading="lazy">
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
