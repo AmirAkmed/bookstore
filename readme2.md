@@ -1,8 +1,5 @@
 
 
-| Feature | Expected Outcome | Result | Screenshots |
-| ------- | ---------------- | ------ | ----------- |
-|         |                  |        | <img src="https://drive.google.com/uc?export=view&id=18JGOy9xSNCmN_7HQaVjOQK5XdnelR2jX" width="650" /> |
 
 
 **Project overview**
@@ -120,20 +117,11 @@ If this section grows too long, you may want to split it off into a separate fil
 
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html\&profile=css3svg\&usermedium=all\&warning=1\&vextwarning=\&lang=en#css)
 
-| Feature | Expected Outcome | Result | Screenshots                |
-|---------------|------------------|--------|--------------------------------------|
-|               |                  |        | ![](https\://imgur.com/7O59pya) | 
-|               |                  |        |                            | 
-|               |                  |        |                            | 
-|               |                  |        |                            | 
-|               |                  |        |                            | 
-|               |                  |        |                            | 
-|               |                  |        |                            | 
-|               |                  |        |                            | 
 
 
-
-
+| Feature | Expected Outcome | Result | Screenshots |
+| ------- | ---------------- | ------ | ----------- |
+|         |                  |        | <img src="https://drive.google.com/uc?export=view&id=18JGOy9xSNCmN_7HQaVjOQK5XdnelR2jX" width="650" /> |
 
 
 
