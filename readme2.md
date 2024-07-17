@@ -6,7 +6,7 @@
 
 ## Introduction
 
-Welcome to the **Exclusive Classics Bookstore App** repository. This project is designed for a small, specialist bookstore that prides itself on its collection of classical literature. The bookstore focuses on exclusive prints and antique editions with historical significance, curated from popular and famous authors over the centuries.
+ to the **Exclusive Classics Bookstore App** repository. This project is designed for a small, specialist bookstore that prides itself on its collection of classical literature. The bookstore focuses on exclusive prints and antique editions with historical significance, curated from popular and famous authors over the centuries.
 
 This app is intended to facilitate the management of this unique collection by providing a system for staff to maintain a comprehensive list of authors and the books they have published. The app is built with two primary tables: one for authors and another for their respective publications.
 
