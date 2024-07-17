@@ -121,8 +121,6 @@ The schema should be basic and simple in design using primary and foreign keys. 
 <img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/view%20book%20details.png " width="650" />
 
 
-<img src="h " width="650" />
-
 <img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/book%20title.png" width="650" />
 
 
@@ -203,38 +201,41 @@ I can confirm that the site is responsive and looks as expected on different scr
 
 **Tablet** 
 
-<img src="https://drive.google.com/uc?export=view&id=1hL1E1DxXDjyvX7E1pIAEeFFfP4I4fPmY" width="650" alt="Homepage" />
-<p align="left">Homepage</p>
 
-<img src="https://drive.google.com/uc?export=view&id=1LnpZvZODJ1FNQw16YnLVOL5tJJfbnOad" width="650" alt="Authors" />
-<p align="left">Authors</p>
+**Homepage**
+<img src="https://drive.google.com/uc?export=view&id=1amgW4qK88_AjqHzXmo2SJ01bOeBE5x5j" width="550" />
 
-<img src="https://drive.google.com/uc?export=view&id=1t6reZcEUbu_PZn2pFksfKlzrrgHTNi_7" width="650" alt="Books" />
-<p align="left">Books</p>
+**Login**
 
-<img src="https://drive.google.com/uc?export=view&id=1amgW4qK88_AjqHzXmo2SJ01bOeBE5x5j" width="650" alt="Login" />
-<p align="left">Login</p>
+<img src="https://drive.google.com/uc?export=view&id=1hL1E1DxXDjyvX7E1pIAEeFFfP4I4fPmY" width="550" />
+
+**Authors**
+
+<img src="https://drive.google.com/uc?export=view&id=1LnpZvZODJ1FNQw16YnLVOL5tJJfbnOad" width="550" />
+
+**Books**
+<img src="https://drive.google.com/uc?export=view&id=1t6reZcEUbu_PZn2pFksfKlzrrgHTNi_7" width="550" />
 
 
 **Mobile** 
 
-<img src="https://drive.google.com/uc?export=view&id=1qrXEce3CvewauorKbm8SwOaOAVy-5aUR" width="650" alt="Sign in page" />
-<p align="left">Sign in page</p>
+**Sign in page**
+<img src="https://drive.google.com/uc?export=view&id=1qrXEce3CvewauorKbm8SwOaOAVy-5aUR" width="650" />
 
-<img src="https://drive.google.com/uc?export=view&id=1iM_zAxCnJfzRHIHSsRzXc8V74p5en--N" awidth="650" lt="Home page" />
-<p align="left">Home page</p>
+**Home page**
+<img src="https://drive.google.com/uc?export=view&id=1iM_zAxCnJfzRHIHSsRzXc8V74p5en--N" awidth="650" />
 
-<img src="https://drive.google.com/uc?export=view&id=19UpwiEySSht_L9baNIjRw1zrq2w0YCtW" width="650" alt="Authors" />
-<p align="left">Authors</p>
+**Authors**
+<img src="https://drive.google.com/uc?export=view&id=19UpwiEySSht_L9baNIjRw1zrq2w0YCtW" width="650" />
 
-<img src="https://drive.google.com/uc?export=view&id=1nkTBMGkivmdMiNjs8XdG362h5Uf_vs2H" width="650" alt="Sign up page" />
-<p align="left">Sign up page</p>
+**Sign up page**
+<img src="https://drive.google.com/uc?export=view&id=1nkTBMGkivmdMiNjs8XdG362h5Uf_vs2H" width="650" />
 
-<img src="https://drive.google.com/uc?export=view&id=16tMyuXNcvxzlr4VoEEraSbZ087jig3V1" width="650" alt="Sign in success" />
-<p align="left">Sign in success</p>
+**Sign in Success**
+<img src="https://drive.google.com/uc?export=view&id=16tMyuXNcvxzlr4VoEEraSbZ087jig3V1" width="650" />
 
-<img src="https://drive.google.com/uc?export=view&id=169D0Dq-sEmC2SnthVzu-cH7vaB20k7FM" width="650" alt="Book" />
-<p align="left">Book</p>
+**Book**
+<img src="https://drive.google.com/uc?export=view&id=169D0Dq-sEmC2SnthVzu-cH7vaB20k7FM" width="650" />
 
 
 #### **TABLE**
