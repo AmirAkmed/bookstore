@@ -1,6 +1,5 @@
 
-<img src="https://drive.google.com/uc?export=view&id=1Tqg0yJPeIFMMwB5N2ZfchMcd7HRtU71Q" />
-
+<img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/banner.png" />
 
 
 # **Project overview**
