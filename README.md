@@ -141,7 +141,7 @@ The schema should be basic and simple in design using primary and foreign keys. 
 |Book Detail |          <img src="https://drive.google.com/uc?export=view&id=1wt3y_k2PwK3830DfAhl9qz-tKfzQsxSx" width="750" />  | Pass: No Errors |
 |Book Confirm Delete |  <img src="https://drive.google.com/uc?export=view&id=1bddBkIkFw8iPkJ_rEjaXRscis4etESfd" width="750" />  | Pass: No Errors |
 
-**CSS** 
+**CSS code Validation using W3C validator** 
 
 | File | Screenshot | Notes |
 | ---- | ---------- | ----- |
