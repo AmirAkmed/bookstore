@@ -158,6 +158,7 @@ Full testing was performed on the following devices:
 #### Full
 ##### test
 ##### Laptop:
+###### saf
 
 * Lenovo Thinkpad Yoga 14" screen 
 
