@@ -202,6 +202,7 @@ I can confirm that the site is responsive and looks as expected on different scr
 
 
 **Homepage**
+
 <img src="https://drive.google.com/uc?export=view&id=1amgW4qK88_AjqHzXmo2SJ01bOeBE5x5j" width="550" />
 
 **Login**
@@ -213,28 +214,35 @@ I can confirm that the site is responsive and looks as expected on different scr
 <img src="https://drive.google.com/uc?export=view&id=1LnpZvZODJ1FNQw16YnLVOL5tJJfbnOad" width="550" />
 
 **Books**
+
 <img src="https://drive.google.com/uc?export=view&id=1t6reZcEUbu_PZn2pFksfKlzrrgHTNi_7" width="550" />
 
 
 **Mobile** 
 
 **Sign in page**
-<img src="https://drive.google.com/uc?export=view&id=1qrXEce3CvewauorKbm8SwOaOAVy-5aUR" width="650" />
+
+<img src="https://drive.google.com/uc?export=view&id=1qrXEce3CvewauorKbm8SwOaOAVy-5aUR" width="500" />
 
 **Home page**
-<img src="https://drive.google.com/uc?export=view&id=1iM_zAxCnJfzRHIHSsRzXc8V74p5en--N" awidth="650" />
+
+<img src="https://drive.google.com/uc?export=view&id=1iM_zAxCnJfzRHIHSsRzXc8V74p5en--N" width="500" />
 
 **Authors**
-<img src="https://drive.google.com/uc?export=view&id=19UpwiEySSht_L9baNIjRw1zrq2w0YCtW" width="650" />
+
+<img src="https://drive.google.com/uc?export=view&id=19UpwiEySSht_L9baNIjRw1zrq2w0YCtW" width="500" />
 
 **Sign up page**
-<img src="https://drive.google.com/uc?export=view&id=1nkTBMGkivmdMiNjs8XdG362h5Uf_vs2H" width="650" />
+
+<img src="https://drive.google.com/uc?export=view&id=1nkTBMGkivmdMiNjs8XdG362h5Uf_vs2H" width="500" />
 
 **Sign in Success**
-<img src="https://drive.google.com/uc?export=view&id=16tMyuXNcvxzlr4VoEEraSbZ087jig3V1" width="650" />
+
+<img src="https://drive.google.com/uc?export=view&id=16tMyuXNcvxzlr4VoEEraSbZ087jig3V1" width="500" />
 
 **Book**
-<img src="https://drive.google.com/uc?export=view&id=169D0Dq-sEmC2SnthVzu-cH7vaB20k7FM" width="650" />
+
+<img src="https://drive.google.com/uc?export=view&id=169D0Dq-sEmC2SnthVzu-cH7vaB20k7FM" width="500" />
 
 
 #### **TABLE**
