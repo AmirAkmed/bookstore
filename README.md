@@ -276,14 +276,14 @@ Homepage
 | ------- | ---------------- | ------ | ----------- |
 |  Sign Up       |  New users can access a sign up form from the "Register" link	                |   Pass: No Errors     | <img src="https://drive.google.com/uc?export=view&id=1Pgi5Ok0SV4f9VPgIS9Pps9W_rgUTGiJY" width="650" /> |
 |  Sign In Page       |  Users can log in using a form after clicking "Log in"           |      Pass  | <img src="https://drive.google.com/uc?export=view&id=1r2GZC8oI1poaxo16zNnG75MXMEKdJ5Bv" width="650" /> |
-|  Sign In Success       |    Text displays the user logged in with their username	              |     Pass   | <img src="https://drive.google.com/uc?export=view&id=19sr1mR1eahVmjA9paXi0NcZKbr_cs62S" width="650" /> |
-|  Sign Out Success       |    Users successfully log out after clicking "Log out"              |    Pass   | <img src="https://drive.google.com/uc?export=view&id=1oeYET3IrlEY6gRKBo1RncS-QlMulag-k" width="650" /> |
-|  Author Create Success       |    Acknowledgement of author created	successfully                 |   Pass     | <img src="https://drive.google.com/uc?export=view&id=18JGOy9xSNCmN_7HQaVjOQK5XdnelR2jX" width="650" /> |
-|  Book Create Success       |   Acknowledgement of book created	successfully	              |      Pass  | <img src="https://drive.google.com/uc?export=view&id=1rliMtqTKEE4gpSfILAcfQWMXNPjTOC0N" width="650" /> |
-|  Delete Author       |   Confirmation of deletion of author              |    Pass   | <img src="https://drive.google.com/uc?export=view&id=1vXop7QcLFbwhJV2Fkrq8hEu-9j-BmtBD" width="650" /> |
-|  Delete Book       |   Confirmation of deletion of book 	               |     Pass | <img src="https://drive.google.com/uc?export=view&id=103MYcPTFVvgR-5OyUsD7rPl_nPKUJ0MN" width="650" /> |
-|  Author Delete Success       |  Acknowledgement of author deleted	successfully                |    Pass   | <img src="https://drive.google.com/uc?export=view&id=1zjYCANrPH6w89ZurZYoJ2-ueKMloUl-k" width="650" /> |
-|  Book Delete Success       |   Acknowledgement of book deleted	successfully              |     Pass  | <img src="https://drive.google.com/uc?export=view&id=14f97FjqxlyWwtkBXGbCuYJp3IEJzCvfN" width="650" /> |
+|  Sign In Successfull       |    Text displays the user logged in with their username	              |     Pass   | <img src="https://drive.google.com/uc?export=view&id=19sr1mR1eahVmjA9paXi0NcZKbr_cs62S" width="650" /> |
+|  Sign Out Successfull       |    Users successfully log out after clicking "Log out"              |    Pass   | <img src="https://drive.google.com/uc?export=view&id=1oeYET3IrlEY6gRKBo1RncS-QlMulag-k" width="650" /> |
+|  Author Create Successfull       |    Acknowledgement of author created	successfully                 |   Pass     | <img src="https://drive.google.com/uc?export=view&id=18JGOy9xSNCmN_7HQaVjOQK5XdnelR2jX" width="650" /> |
+|  Book Create Successfull       |   Acknowledgement of book created	successfully	              |      Pass  | <img src="https://drive.google.com/uc?export=view&id=1rliMtqTKEE4gpSfILAcfQWMXNPjTOC0N" width="650" /> |
+|  Delete Author       |   Confirmation screen pops-up for deletion of author              |    Pass   | <img src="https://drive.google.com/uc?export=view&id=1vXop7QcLFbwhJV2Fkrq8hEu-9j-BmtBD" width="650" /> |
+|  Delete Book       |   Confirmation screen pops-up for deletion of book 	               |     Pass | <img src="https://drive.google.com/uc?export=view&id=103MYcPTFVvgR-5OyUsD7rPl_nPKUJ0MN" width="650" /> |
+|  Author Delete Successfull       |  Acknowledgement of author deleted	successfully                |    Pass   | <img src="https://drive.google.com/uc?export=view&id=1zjYCANrPH6w89ZurZYoJ2-ueKMloUl-k" width="650" /> |
+|  Book Delete Successfull       |   Acknowledgement of book deleted	successfully              |     Pass  | <img src="https://drive.google.com/uc?export=view&id=14f97FjqxlyWwtkBXGbCuYJp3IEJzCvfN" width="650" /> |
 
 
 
