@@ -261,6 +261,9 @@ You can break the credits section up into Content and Media, depending on what y
 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
+
+
+
  **Media**<a id="media"></a>
 
 - The photos used on the home and sign up page are from This Open Source site
@@ -268,6 +271,13 @@ You can break the credits section up into Content and Media, depending on what y
 - The images used for the gallery page were taken from this other open source site
 
 Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
+
+
+
+
+
+
+
 
 
 ## **Future features**
