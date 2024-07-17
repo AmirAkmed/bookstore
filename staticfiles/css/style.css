@@ -1,0 +1,35 @@
+.messages-container {
+    position: relative;
+    z-index: 1000;
+    /* Ensures the messages are above other content */
+}
+
+.hero-image {
+    position: relative;
+    width: 100%;
+    overflow: hidden; /* Ensure the container does not exceed viewport */
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Cover the entire container while maintaining aspect ratio */
+}
+
+.hidden-hero {
+    display: none;
+}
+
+.overlay-content {
+    z-index: 5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Optional: to dim the background */
+}
