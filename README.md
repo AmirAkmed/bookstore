@@ -127,7 +127,7 @@ The schema should be basic and simple in design using primary and foreign keys. 
 ## **Testing**
 
 
-**HTML** 
+**HTML code Validation using W3C validator** 
 
 | Page | Screenshot | Notes |
 | ---- | ---------- | ----- |
