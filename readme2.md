@@ -347,9 +347,6 @@ You can break the credits section up into Content and Media, depending on what y
 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
-
-
-
  **Media**<a id="media"></a>
 
 - The photos used on the home and sign up page are from This Open Source site
@@ -391,5 +388,6 @@ Features you did not add yet
 
 ## **Known Bugs**
 
+* There are no major bugs.
 
 
