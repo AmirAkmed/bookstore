@@ -155,6 +155,7 @@ The schema should be basic and simple in design using primary and foreign keys. 
 Development tools were used to test responsiveness on varying devices including laptop, mobile.
 
 Full testing was performed on the following devices:
+#### Full
 ##### test
 ##### Laptop:
 
