@@ -26,7 +26,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-86km-+ppb(x6&jb=^_9efqz_9f^9@ypled0@74r*2ivls*&b#)'
+SECRET_KEY = 'django-insecure-86km-+ppb(x6&jb=^_9efqz_9f^9@ypled0@74r*2ivls*&b#)',  # noqa
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -118,7 +118,7 @@ WSGI_APPLICATION = 'bookstore.wsgi.application'
 # }
 
 DATABASES = {
-	'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
+    default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
 }
 
 # DATABASES = {
@@ -126,11 +126,11 @@ DATABASES = {
 #         'ENGINE': 'django_postgrespool2',
 #         'NAME': os.getenv('DB_NAME'),  # Use your actual database name
 #         'USER': os.getenv('DB_USER'),  # Use your actual database user
-#         'PASSWORD': os.getenv('DB_PASSWORD'),  # Use your actual database password
+#         'PASSWORD': os.getenv('DB_PASSWORD'),  # Use actual db password
 #         'HOST': os.getenv('DB_HOST'),  # Use your actual database host
 #         'PORT': os.getenv('DB_PORT'),  # Use your actual database port
 #         'OPTIONS': {
-#             'MAX_CONNS': 2,  # Set the maximum number of connections to match your needs
+#             'MAX_CONNS': 2,  # Set maximum number of connections
 #         },
 #     }
 # }
@@ -141,10 +141,10 @@ DATABASES = {
 #         'NAME': 'edge_dance_femur_512775',  # Use your actual database name
 #         'USER': 'ubm4h2dcstz',  # Use your actual database user
 #         'PASSWORD': 'qdfWI4JU4JQQ',  # Use your actual database password
-#         'HOST': 'ep-gentle-mountain-a23bxz6h.eu-central-1.aws.neon.tech',  # Use your actual database host
+#         'HOST': 'ep-gentle-mountain-a23bxz6h.eu-central-1.aws.neon.tech',  # db host
 #         'PORT': '5432',  # Use your actual database port
 #         'OPTIONS': {
-#             'MAX_CONNS': 2,  # Set the maximum number of connections to match your needs
+#             'MAX_CONNS': 2,  # Set the maximum number of connections
 #         },
 #     }
 # }
@@ -155,16 +155,16 @@ DATABASES = {
 
 AUTH_PASSWORD_VALIDATORS = [
     {
-        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
+        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',  # noqa
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
+        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',  # noqa
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
+        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',  # noqa
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
+        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',  # noqa
     },
 ]
 
