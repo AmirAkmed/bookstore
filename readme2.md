@@ -233,39 +233,39 @@ I can confirm that the site is responsive and looks as expected on different scr
 
 ### Lighthouse Audit: 
  
-Home      Book Delete
+Book Delete
 
 <img src="https://drive.google.com/uc?export=view&id=17zysQ6Q-S60OwH9qUkrasQ1B0DuWXe_P" width="500" />, 
 
-Author List         Book Edit 
+Edit Author 
 
 <img src="https://drive.google.com/uc?export=view&id=18lFz1BOETLV56Q0UDrOmIkyDzrPF8yEK" width="500" />, 
 
-Book List     Author Delete
+Author Delete
 
 <img src="https://drive.google.com/uc?export=view&id=11Cyz3MSwxyPlV5QUPD60d0DnVg-KqU5H" width="500" />, 
 
-Login  Edit Author
+Edit Book
 
 <img src="https://drive.google.com/uc?export=view&id=1z7N8Rc91gn8mmYCPBJnFRjsBdid8NcXd" width="500" />, 
 
-Sign Up 
+Books
 
 <img src="https://drive.google.com/uc?export=view&id=1jJacpsWyGd-xLT6H1dTuvDh7s19t8JjP" width="500" />, 
 
-Edit Author    Login
+Sign in page
 
 <img src="https://drive.google.com/uc?export=view&id=1B3pkCd90XEpqvvzSPZa3_Wliehve5A9d" width="500" />, 
 
-Author Delete    Book List
+Sign up page
 
 <img src="https://drive.google.com/uc?export=view&id=1FC50PYX6wj3TSHagFfMQopYI3gIixF_O" width="500" />, 
 
-Book Edit    Author List
+Author List
 
 <img src="https://drive.google.com/uc?export=view&id=1VD6AKAWRJNEo1aMY40hdRQUTlpp_gaSO" width="500" />, 
 
-Book Delete     Home
+Homepage
 
 <img src="https://drive.google.com/uc?export=view&id=14A6xq7TtzSXKyP9EJDKVxEbAV9anhwlx" width="500" />, 
 
