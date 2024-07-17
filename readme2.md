@@ -44,7 +44,8 @@ The bookstore staff are able to see the book names and authors as well as being 
 
 **Login**
 
-Staff are required to login to be able to create, delete and edit records. ****They can simply register with an username and password.
+Staff are required to login to be able to create, delete and edit records. 
+They can simply register with an username and password.
 
 
 ## **UX/UI**
