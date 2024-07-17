@@ -114,9 +114,6 @@ The schema should be basic and simple in design using primary and foreign keys. 
 <img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/author%20list.png " width="650" />
 
 
-![](h)
-
-
 
 **Book**
 
