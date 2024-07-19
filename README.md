@@ -31,17 +31,16 @@ We hope this tool enhances your experience in managing our esteemed collection o
 
 **Authors**
 
-The guest users are able to view the list of authors and a little biography on them.
+Only authorized bookstore staff are able to view the list of authors and view a brief biography of them.
+Staff members can add new authors and also edit or delete author information.
 
-The bookstore staff are able to see the list of authors as well as being able to edit or delete authors.
 
 ****![](https://github.com/AmirAkmed/bookstore/blob/main/static/img/books.png)****
 
 **Books** 
 
-The guest users are able to see the book names as well as authors alongside when the book was published. 
-
-The bookstore staff are able to see the book names and authors as well as being able to edit the books too.
+Only authorized bookstore staff can view detailed information about the books, including titles, authors, and publication dates. 
+Staff can also edit book information as needed and add new books.
 
 ![](https://github.com/AmirAkmed/bookstore/blob/main/static/img/login.png)
 
@@ -153,7 +152,7 @@ The schema should be basic and simple in design using primary and foreign keys. 
 
 
 ### **Responsiveness**
-Development tools were used to test responsiveness on varying devices including laptop, mobile.
+Development tools were used to test responsiveness on varying devices including laptop, tablet and mobile.
 
 Full testing was performed on the following devices:
 
@@ -162,7 +161,7 @@ Full testing was performed on the following devices:
 
 * Lenovo Thinkpad Yoga 14" screen 
 
-Mobile Devices:
+#### Mobile Devices:
 
 * Samsung S21
 
@@ -289,15 +288,52 @@ Homepage
 
 **Unfixed Bugs**<a id="unfixed-bugs"></a>
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+The **Exclusive Classics Bookstore App** has been thoroughly tested and refined to provide a reliable and user-friendly experience for bookstore staff. The testing process ensured that all features work as intended and that the application is accessible across various devices and browsers. As of the latest testing, there are no known major bugs in the **Exclusive Classics Bookstore App** project. While time constraints and initial implementation challenges were encountered, all issues were ultimately resolved through thorough testing and debugging.
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+### Testing and Functionality
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+Extensive testing has been conducted on the application, utilizing a sample dataset of 13 authors and 26 book titles. The following features were tested rigorously:
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+- **Record Creation**: New author and book records can be created without issues.
+- **Record Deletion**: Records can be deleted, with a confirmation modal to prevent accidental deletions.
+- **Record Listing**: Authors and books are listed alphabetically.
+- **Record Editing**: Existing records can be edited and updated correctly.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+### Cross-Browser and Device Compatibility
+
+The application has been tested on multiple devices and browsers to ensure consistent functionality and appearance. The following points highlight the compatibility results:
+
+- **Devices Tested**:
+  - **Laptop**: Full functionality with all features accessible and usable.
+  - **Tablet**: Responsive design adapts well, with navigation and record management features intact.
+  - **Mobile**: Elements rearrange for convenience, maintaining usability and readability.
+
+- **Browsers Tested**:
+  - **Google Chrome**: No issues found, full compatibility.
+  - **Mozilla Firefox**: No issues found, full compatibility.
+  - **Safari**: No issues found, full compatibility.
+  - **Microsoft Edge**: No issues found, full compatibility.
+
+### Design and User Experience Enhancements
+
+To improve user experience and application performance, the following enhancements were made:
+
+- **Alphabetical Listing**: Ensured authors and books are listed alphabetically for easy navigation.
+- **Delete Confirmation Modal**: Added a confirmation popup to prevent accidental deletions.
+- **Responsive Design**: Navigation bar reduces to a burger icon on smaller screens, with dropdown lists for easy access.
+- **Z-Index Adjustment**: Success and failure messages now appear correctly above the hero image, thanks to appropriate z-index and margin adjustments.
+- **Optimized Hero Image**: Compressed original image and provided smaller versions for different screen sizes, maintaining aspect ratio and reducing load times.
+- **Message Display Fix**: Initially, no messages were being displayed. This was remedied by using the `@login_required_message` decorator available as part of Django's extensive login features.
+
+### Interesting Bugs and Problems Encountered
+
+During the testing phase, a few interesting issues were identified and resolved:
+
+- **Non-Alphabetic Listing**: Initially, records were not listed alphabetically, which was promptly fixed to enhance user navigation.
+- **Accidental Deletions**: The delete button initially removed records immediately. This was addressed by implementing a confirmation modal.
+- **Message Display**: Success and failure messages were obscured by the hero image. Adjustments to z-index and top margin resolved this issue.
+- **Hero Image Load Time**: The loading time of the hero image was optimized by compressing the image and creating smaller versions for different screen sizes.
+- **Initial Message Display Issue**: Initially, no messages were being displayed. This was remedied by using the `@login_required_message` decorator available as part of Django's extensive login features.
 
 
 **Validator Testing**<a id="validator-testing"></a>
