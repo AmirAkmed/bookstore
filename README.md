@@ -227,11 +227,18 @@ I can confirm that the site is responsive and looks as expected on different scr
 
 <img src="https://drive.google.com/uc?export=view&id=169D0Dq-sEmC2SnthVzu-cH7vaB20k7FM" width="500" />
 
+
+
+
+
+
+
+
 ### Lighthouse Audit: 
  
 Book Delete
 
-<img src="https://drive.google.com/uc?export=view&id=17zysQ6Q-S60OwH9qUkrasQ1B0DuWXe_P" width="500" />, 
+<img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/valid%202-20240719T130237Z-001/valid%202/Perf_Book_Delete.png" width="500" />, 
 
 Edit Author 
 
