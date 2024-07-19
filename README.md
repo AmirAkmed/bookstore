@@ -130,21 +130,21 @@ The schema should be basic and simple in design using primary and foreign keys. 
 
 | Page | Screenshot | Notes |
 | ---- | ---------- | ----- |
-| Home |         <img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/Home_HTML.png" width="650" />  | Pass: No Errors |
+| Home |         <img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/Home_HTML.png" alt="home w3c validation" width="650" />  | Pass: No Errors |
 | Author List |  <img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/validate%20html/Author_List_HTML.png" alt="author list w3c validation" width="750" /> | Pass: No Errors |
-| Author Form |  <img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/validate%20html/Author_Form_HTML.png" width="750" />   | Pass: but there are extraneous newline characters (↩) these characters are not valid in HTML and can cause validation errors. |
-| Author Detail |<img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/validate%20html/Author_Detail_HTML.png" width="750" />   | Pass: but there are extraneous newline characters (↩) these characters are not valid in HTML and can cause validation errors. |
-| Author Confirm Delete |<img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/validate%20html/Author_Confirm_Delete_HTML.png" width="750" />  | Pass: No Errors |
-| Book List |    <img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/validate%20html/Book_List_HTML.png" width="750" />  | Pass: No Errors |
-| Book Form |    <img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/validate%20html/Book_Form_HTML.png" width="750" />  | Pass: No Errors |
-|Book Detail |          <img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/validate%20html/Book_Detail_HTML.png" width="750" />  | Pass: No Errors |
-|Book Confirm Delete |  <img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/validate%20html/Book_Confirm_Delete_HTML.png" width="750" />  | Pass: No Errors |
+| Author Form |  <img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/validate%20html/Author_Form_HTML.png" alt="author form w3c validation" width="750" />   | Pass: but there are extraneous newline characters (↩) these characters are not valid in HTML and can cause validation errors. |
+| Author Detail |<img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/validate%20html/Author_Detail_HTML.png" alt="author detail w3c validation" width="750" />   | Pass: but there are extraneous newline characters (↩) these characters are not valid in HTML and can cause validation errors. |
+| Author Confirm Delete |<img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/validate%20html/Author_Confirm_Delete_HTML.png" alt="author confirm delete w3c validation" width="750" />  | Pass: No Errors |
+| Book List |    <img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/validate%20html/Book_List_HTML.png" alt="book list w3c validation" width="750" />  | Pass: No Errors |
+| Book Form |    <img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/validate%20html/Book_Form_HTML.png" alt="book form w3c validation" width="750" />  | Pass: No Errors |
+|Book Detail |          <img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/validate%20html/Book_Detail_HTML.png" alt="book detail w3c validation" width="750" />  | Pass: No Errors |
+|Book Confirm Delete |  <img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/validate%20html/Book_Confirm_Delete_HTML.png" alt="book confirm delete w3c validation" width="750" />  | Pass: No Errors |
 
 **CSS code Validation using W3C validator** 
 
 | File | Screenshot | Notes |
 | ---- | ---------- | ----- |
-| style.css| <img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/validate%20html/Style_Css_Validation.png" width="750" /> | Pass: No Errors|
+| style.css| <img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/validate%20html/Style_Css_Validation.png" alt="style.css w3c validation" width="750" /> | Pass: No Errors|
 
 
 
@@ -171,12 +171,12 @@ I have tested the site using the following browsers:
 
 * Google Chrome
 
-<img src="https://drive.google.com/uc?export=view&id=1MM9yIDkaIE8M9BJZCSdAnqgQgU2C0gVb" />
+<img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/Responsiveness/Laptop/Laptop_Chrome.png" />
 
 
 * Microsoft Edge
 
-<img src="https://drive.google.com/uc?export=view&id=1OWZjcZ2ZcQ4OJCjCtH6tuQ3JcedT7EbR" />
+<img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/Responsiveness/Laptop/Laptop_Edge.png" />
 
 I can confirm that the site is responsive and looks as expected on different screen sizes.
 
@@ -186,46 +186,46 @@ I can confirm that the site is responsive and looks as expected on different scr
 
 **Homepage**
 
-<img src="https://drive.google.com/uc?export=view&id=1amgW4qK88_AjqHzXmo2SJ01bOeBE5x5j" width="550" />
+<img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/Responsiveness/Tablet%20(Galaxy%20Tab%20A)/Tablet_Homepage.jpg" width="550" />
 
 **Login**
 
-<img src="https://drive.google.com/uc?export=view&id=1hL1E1DxXDjyvX7E1pIAEeFFfP4I4fPmY" width="550" />
+<img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/Responsiveness/Tablet%20(Galaxy%20Tab%20A)/Tablet_Login.jpg" width="550" />
 
 **Authors**
 
-<img src="https://drive.google.com/uc?export=view&id=1LnpZvZODJ1FNQw16YnLVOL5tJJfbnOad" width="550" />
+<img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/Responsiveness/Tablet%20(Galaxy%20Tab%20A)/Tablet_Authors.jpg" width="550" />
 
 **Books**
 
-<img src="https://drive.google.com/uc?export=view&id=1t6reZcEUbu_PZn2pFksfKlzrrgHTNi_7" width="550" />
+<img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/Responsiveness/Tablet%20(Galaxy%20Tab%20A)/Tablet_Books.jpg" width="550" />
 
 
 #### **Mobile** 
 
 **Sign in page**
 
-<img src="https://drive.google.com/uc?export=view&id=1qrXEce3CvewauorKbm8SwOaOAVy-5aUR" width="500" />
+<img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/Responsiveness/Mobile%20(Samsung%20S21)/Mobile_SignIn_Page.jpg" width="500" />
 
 **Home page**
 
-<img src="https://drive.google.com/uc?export=view&id=1iM_zAxCnJfzRHIHSsRzXc8V74p5en--N" width="500" />
+<img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/Responsiveness/Mobile%20(Samsung%20S21)/Mobile_Homepage.jpg" width="500" />
 
 **Authors**
 
-<img src="https://drive.google.com/uc?export=view&id=19UpwiEySSht_L9baNIjRw1zrq2w0YCtW" width="500" />
+<img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/Responsiveness/Mobile%20(Samsung%20S21)/Mobile_Authors.jpg" width="500" />
 
 **Sign up page**
 
-<img src="https://drive.google.com/uc?export=view&id=1nkTBMGkivmdMiNjs8XdG362h5Uf_vs2H" width="500" />
+<img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/Responsiveness/Mobile%20(Samsung%20S21)/Mobile_SignUp_Page.jpg" width="500" />
 
 **Sign in Success**
 
-<img src="https://drive.google.com/uc?export=view&id=16tMyuXNcvxzlr4VoEEraSbZ087jig3V1" width="500" />
+<img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/Responsiveness/Mobile%20(Samsung%20S21)/Mobile_SignIn_%20Success.jpg" width="500" />
 
 **Book**
 
-<img src="https://drive.google.com/uc?export=view&id=169D0Dq-sEmC2SnthVzu-cH7vaB20k7FM" width="500" />
+<img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/Responsiveness/Mobile%20(Samsung%20S21)/Mobile_Book.jpg" width="500" />
 
 
 
@@ -242,35 +242,35 @@ Book Delete
 
 Edit Author 
 
-<img src="https://drive.google.com/uc?export=view&id=18lFz1BOETLV56Q0UDrOmIkyDzrPF8yEK" width="500" />, 
+<img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/valid%202/Perf_Edit_Author.png" width="500" />, 
 
 Author Delete
 
-<img src="https://drive.google.com/uc?export=view&id=11Cyz3MSwxyPlV5QUPD60d0DnVg-KqU5H" width="500" />, 
+<img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/valid%202/Perf_Author_Delete.png" width="500" />, 
 
 Edit Book
 
-<img src="https://drive.google.com/uc?export=view&id=1z7N8Rc91gn8mmYCPBJnFRjsBdid8NcXd" width="500" />, 
+<img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/valid%202/Perf_Book_Edit.png" width="500" />, 
 
 Books
 
-<img src="https://drive.google.com/uc?export=view&id=1jJacpsWyGd-xLT6H1dTuvDh7s19t8JjP" width="500" />, 
+<img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/valid%202/Perf_Book_List.png" width="500" />, 
 
 Sign in page
 
-<img src="https://drive.google.com/uc?export=view&id=1B3pkCd90XEpqvvzSPZa3_Wliehve5A9d" width="500" />, 
+<img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/valid%202/Perf_login.png" width="500" />, 
 
 Sign up page
 
-<img src="https://drive.google.com/uc?export=view&id=1FC50PYX6wj3TSHagFfMQopYI3gIixF_O" width="500" />, 
+<img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/valid%202/Perf_SignUp.png" width="500" />, 
 
 Author List
 
-<img src="https://drive.google.com/uc?export=view&id=1VD6AKAWRJNEo1aMY40hdRQUTlpp_gaSO" width="500" />, 
+<img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/valid%202/Perf_Author_List.png" width="500" />, 
 
 Homepage
 
-<img src="https://drive.google.com/uc?export=view&id=14A6xq7TtzSXKyP9EJDKVxEbAV9anhwlx" width="500" />, 
+<img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/valid%202/Perf_Home.png" width="500" />, 
 
 
 
@@ -280,16 +280,17 @@ Homepage
 
 | Feature | Expected Outcome | Result | Screenshots |
 | ------- | ---------------- | ------ | ----------- |
-|  Sign Up       |  New users can access a sign up form from the "Register" link	                |   Pass: No Errors     | <img src="https://drive.google.com/uc?export=view&id=1Pgi5Ok0SV4f9VPgIS9Pps9W_rgUTGiJY" width="650" /> |
-|  Sign In Page       |  Users can log in using a form after clicking "Log in"           |      Pass  | <img src="https://drive.google.com/uc?export=view&id=1r2GZC8oI1poaxo16zNnG75MXMEKdJ5Bv" width="650" /> |
-|  Sign In Successfull       |    Text displays the user logged in with their username	              |     Pass   | <img src="https://drive.google.com/uc?export=view&id=19sr1mR1eahVmjA9paXi0NcZKbr_cs62S" width="650" /> |
-|  Sign Out Successfull       |    Users successfully log out after clicking "Log out"              |    Pass   | <img src="https://drive.google.com/uc?export=view&id=1oeYET3IrlEY6gRKBo1RncS-QlMulag-k" width="650" /> |
-|  Author Create Successfull       |    Acknowledgement of author created	successfully                 |   Pass     | <img src="https://drive.google.com/uc?export=view&id=18JGOy9xSNCmN_7HQaVjOQK5XdnelR2jX" width="650" /> |
-|  Book Create Successfull       |   Acknowledgement of book created	successfully	              |      Pass  | <img src="https://drive.google.com/uc?export=view&id=1rliMtqTKEE4gpSfILAcfQWMXNPjTOC0N" width="650" /> |
-|  Delete Author       |   Confirmation screen pops-up for deletion of author              |    Pass   | <img src="https://drive.google.com/uc?export=view&id=1vXop7QcLFbwhJV2Fkrq8hEu-9j-BmtBD" width="650" /> |
-|  Delete Book       |   Confirmation screen pops-up for deletion of book 	               |     Pass | <img src="https://drive.google.com/uc?export=view&id=103MYcPTFVvgR-5OyUsD7rPl_nPKUJ0MN" width="650" /> |
-|  Author Delete Successfull       |  Acknowledgement of author deleted	successfully                |    Pass   | <img src="https://drive.google.com/uc?export=view&id=1zjYCANrPH6w89ZurZYoJ2-ueKMloUl-k" width="650" /> |
-|  Book Delete Successfull       |   Acknowledgement of book deleted	successfully              |     Pass  | <img src="https://drive.google.com/uc?export=view&id=14f97FjqxlyWwtkBXGbCuYJp3IEJzCvfN" width="650" /> |
+|  Sign Up       |  New users can access a sign up form from the "Register" link	                |   Pass: No Errors     | <img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/Testing/Testing_SignUp.png" width="650" /> |
+|  Sign In Page       |  Users can log in using a form after clicking "Log in"           |      Pass  | <img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/Testing/Testing_SignIn_Page.png" width="650" /> |
+|  Sign In Successfull       |    Text displays the user logged in with their username	              |     Pass   | <img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/Testing/Testing_SignIn_Amir.png" width="650" /> |
+|  Sign Out Successfull       |    Users successfully log out after clicking "Log out"              |    Pass   | <img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/Testing/Testing_SignOut_Success.png" width="650" /> |
+|  Author Create Successfull       |    Acknowledgement of author created	successfully                 |   Pass     | <img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/Testing/Testing_Author_Create_Success.png" width="650" /> |
+|  Book Create Successfull       |   Acknowledgement of book created	successfully	              |      Pass  | <img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/Testing/Testing_Book_Create_success.png" width="650" /> |
+|  Delete Author       |   Confirmation screen pops-up for deletion of author              |    Pass   | <img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/Testing/Testing_Delete_Author.png" width="650" /> |
+|  Delete Book       |   Confirmation screen pops-up for deletion of book 	               |     Pass | <img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/Testing/Testing_Delete_Book.png" width="650" /> |
+|  Author Delete Successfull       |  Acknowledgement of author deleted	successfully                |    Pass   | <img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/Testing/Testing_Delete_Author_Success.png" width="650" /> |
+|  Book Delete Successfull       |   Acknowledgement of book deleted	successfully              |     Pass  | <img src"https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/Testing/Testing_Delete_Book_Success.png" width="650" /> |
+
 
 
 
