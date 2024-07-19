@@ -131,7 +131,7 @@ The schema should be basic and simple in design using primary and foreign keys. 
 | Page | Screenshot | Notes |
 | ---- | ---------- | ----- |
 | Home |         <img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/Home_HTML.png" width="650" />  | Pass: No Errors |
-| Author List |  <img src="https://drive.google.com/uc?export=view&id=1jtmRDqd6hTvefzrGdDsjamjoXZTI9m-d" width="750" /> | Pass: No Errors |
+| Author List |  <img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/validate%20html/Author_List_HTML.png" alt="author list w3c validation" width="750" /> | Pass: No Errors |
 | Author Form |  <img src="https://drive.google.com/uc?export=view&id=1GuFMphiiA2CAnKpDeXQh_fFkjCfKxL1Q" width="750" />   | Pass: but there are extraneous newline characters (↩) these characters are not valid in HTML and can cause validation errors. |
 | Author Detail |<img src="https://drive.google.com/uc?export=view&id=1ucnFGjgKRYGIN6jG3-asF9OjRQG91ZOM" width="750" />   | Pass: but there are extraneous newline characters (↩) these characters are not valid in HTML and can cause validation errors. |
 | Author Confirm Delete |<img src="https://drive.google.com/uc?export=view&id=15PUQ24YHHTpBiaIV_zP8kKetFZ2wtJzx" width="750" />  | Pass: No Errors |
