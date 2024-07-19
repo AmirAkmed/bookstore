@@ -132,19 +132,19 @@ The schema should be basic and simple in design using primary and foreign keys. 
 | ---- | ---------- | ----- |
 | Home |         <img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/Home_HTML.png" width="650" />  | Pass: No Errors |
 | Author List |  <img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/validate%20html/Author_List_HTML.png" alt="author list w3c validation" width="750" /> | Pass: No Errors |
-| Author Form |  <img src="https://drive.google.com/uc?export=view&id=1GuFMphiiA2CAnKpDeXQh_fFkjCfKxL1Q" width="750" />   | Pass: but there are extraneous newline characters (↩) these characters are not valid in HTML and can cause validation errors. |
-| Author Detail |<img src="https://drive.google.com/uc?export=view&id=1ucnFGjgKRYGIN6jG3-asF9OjRQG91ZOM" width="750" />   | Pass: but there are extraneous newline characters (↩) these characters are not valid in HTML and can cause validation errors. |
-| Author Confirm Delete |<img src="https://drive.google.com/uc?export=view&id=15PUQ24YHHTpBiaIV_zP8kKetFZ2wtJzx" width="750" />  | Pass: No Errors |
-| Book List |    <img src="https://drive.google.com/uc?export=view&id=10U9tDA1H1hygVOKE0fmDLgjkXIuWrFzA" width="750" />  | Pass: No Errors |
-| Book Form |    <img src="https://drive.google.com/uc?export=view&id=1gcW94ZajuFSAUn8BwQvDmEw9J44NXEuv" width="750" />  | Pass: No Errors |
-|Book Detail |          <img src="https://drive.google.com/uc?export=view&id=1wt3y_k2PwK3830DfAhl9qz-tKfzQsxSx" width="750" />  | Pass: No Errors |
-|Book Confirm Delete |  <img src="https://drive.google.com/uc?export=view&id=1bddBkIkFw8iPkJ_rEjaXRscis4etESfd" width="750" />  | Pass: No Errors |
+| Author Form |  <img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/validate%20html/Author_Form_HTML.png" width="750" />   | Pass: but there are extraneous newline characters (↩) these characters are not valid in HTML and can cause validation errors. |
+| Author Detail |<img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/validate%20html/Author_Detail_HTML.png" width="750" />   | Pass: but there are extraneous newline characters (↩) these characters are not valid in HTML and can cause validation errors. |
+| Author Confirm Delete |<img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/validate%20html/Author_Confirm_Delete_HTML.png" width="750" />  | Pass: No Errors |
+| Book List |    <img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/validate%20html/Book_List_HTML.png" width="750" />  | Pass: No Errors |
+| Book Form |    <img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/validate%20html/Book_Form_HTML.png" width="750" />  | Pass: No Errors |
+|Book Detail |          <img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/validate%20html/Book_Detail_HTML.png" width="750" />  | Pass: No Errors |
+|Book Confirm Delete |  <img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/validate%20html/Book_Confirm_Delete_HTML.png" width="750" />  | Pass: No Errors |
 
 **CSS code Validation using W3C validator** 
 
 | File | Screenshot | Notes |
 | ---- | ---------- | ----- |
-| style.css| <img src="https://drive.google.com/uc?export=view&id=1egYf3FvcEPMMUYG8CyTYXqS4c0C0mT4o" width="750" /> | Pass: No Errors|
+| style.css| <img src="https://github.com/AmirAkmed/bookstore/blob/main/static/img/screenshots/validate%20html/Style_Css_Validation.png" width="750" /> | Pass: No Errors|
 
 
 
