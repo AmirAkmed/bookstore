@@ -323,7 +323,7 @@ To improve user experience and application performance, the following enhancemen
 - **Responsive Design**: Navigation bar reduces to a burger icon on smaller screens, with dropdown lists for easy access.
 - **Z-Index Adjustment**: Success and failure messages now appear correctly above the hero image, thanks to appropriate z-index and margin adjustments.
 - **Optimized Hero Image**: Compressed original image and provided smaller versions for different screen sizes, maintaining aspect ratio and reducing load times.
-- **Message Display Fix**: Initially, no messages were being displayed. This was remedied by using the `@login_required_message` decorator available as part of Django's extensive login features.
+- **Message Display Fix**: Initially, no messages were being displayed during login and registeration. This was remedied by using the `@login_required_message` decorator available as part of Django's extensive login features.
 
 ### Interesting Bugs and Problems Encountered
 
@@ -333,7 +333,7 @@ During the testing phase, a few interesting issues were identified and resolved:
 - **Accidental Deletions**: The delete button initially removed records immediately. This was addressed by implementing a confirmation modal.
 - **Message Display**: Success and failure messages were obscured by the hero image. Adjustments to z-index and top margin resolved this issue.
 - **Hero Image Load Time**: The loading time of the hero image was optimized by compressing the image and creating smaller versions for different screen sizes.
-- **Initial Message Display Issue**: Initially, no messages were being displayed. This was remedied by using the `@login_required_message` decorator available as part of Django's extensive login features.
+- **Initial Message Display Issue**: Initially, no messages were being displayed during login and registeration. This was remedied by using the `@login_required_message` decorator available as part of Django's extensive login features.
 
 
 **Validator Testing**<a id="validator-testing"></a>
