@@ -366,34 +366,32 @@ This section should describe the process you went through to deploy the project 
 The live link can be found here - <https://code-institute-org.github.io/love-running-2.0/index.html>
 
 
-## **Credits**
+## Tools and Technologies Used
 
+The technologies implemented in this application included HTML5, CSS, Bootstrap, Python, and Django.
 
-GitHub 
-Django 
-Gitpod
-Heroku
-Code Institute LMS
-Slack Cod Institute
-Webp
-Tinypng
-ChatGPT
-Code Copilot
-Python used as the back-end programming language.
+- **Python**: Used as the back-end programming language.
+- **Git**: Used for version control. (git add, git commit, git push)
+- **GitHub**: Used for secure online code storage.
+- **Heroku**: Used for hosting the deployed front-end and back-end site.
+- **Gitpod**: Used as a cloud-based IDE for development.
+- **Bootstrap**: Used as the front-end CSS framework for modern responsiveness and pre-built components.
+- **Code Institute Hosted Postgres Database**: Used to store records.
+- **Balsamiq**: Used for wireframes.
+- **Google and Stack Overflow**: Utilized for general research or solving a bug, information gathering, and various online tools.
+- **Slack (Code Institute Channels)**: Used for understanding and debugging issues.
+- **Webp CLI**: Utility used to compress and resize hero images.
+- **TinyPNG**: Used extensively for images included in README.md.
+- **ChatGPT**: Used throughout the application including generating records.
+- **Code Copilot**: Used to understand code and debugging.
 
+## Languages Used
+- HTML5
+- CSS
+- Python
 
-* Git used for version control. (git add, git commit, git push)
-
-
-* GitHub used for secure online code storage.
-
-
-* GitHub Pages used for hosting the deployed front-end site.
-
-
-* Gitpod used as a cloud-based IDE for development.
-
-* Bootstrap used as the front-end CSS framework for modern responsiveness and pre-built components.
+## Deployment
+I used the steps used when deploying our Django blog to deploy this application. The instructions for this mainly came from the follow-along videos and text-steps provided on the Code Institute LMS.
 
 
 **Content**
@@ -401,67 +399,26 @@ Python used as the back-end programming language.
 * Extensive reference to LMS and personal notes were made to complete all coding parts of the project. From creating views and models to deployment on Heroku.
 * Code Copilot was instrumental in understanding coding problems and debugging.  
 
-
-	https://amirbooks-d3222602a6af.herokuapp.com/
-
 **Media**
-
 
 * The Hero Image was generated using DALL-E
 * Cwep Utility was used to compress and resize the Hero Image.
 
 
-
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
-
-You can break the credits section up into Content and Media, depending on what you have included in your project.
-
- **Content**<a id="content"></a>
-
-- The text for the Home page was taken from Wikipedia Article A
-
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
- **Media**<a id="media"></a>
-
-- The photos used on the home and sign up page are from This Open Source site
-
-- The images used for the gallery page were taken from this other open source site
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
-
-
-
-
-
-
-
-
-
 ## **Future features**
 
-* book covers 
-
-* The about page but ran out of time
-
+The intention was to produce a minimal viable product but below are a list of future enhacements:
+* Add book covers 
+* Add about page
 * Add search facility for Authors and Books
 * Add email verification
-* Add additional fields to the models for more information on books and authors
+* Add additional fields to database and views for more information on books and authors
 * Add a contact page
+* Add social media links
 
-
-
-
-Features you did not add yet
-
-● You ran out of time
-
-● You weren’t sure if it was viable
-
-● Weren’t comfortable implementing
-
+## **Credits**
+To create the README.md I used https://github.com/hiboibrahim/thebookbooth readme as an example. It followed my project very closely.
+The support, help and guidence given by Iris Smoke, Martin and Kevin was invaluable and help me enormously in producing the code and debugging my application.
 
 ## **Known Bugs**
 
